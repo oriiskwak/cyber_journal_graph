@@ -7,6 +7,7 @@
 | 파이프라인, 모델, 프롬프트 및 가드 | [실행 설명](docs/tempo_run.md), [프롬프트](run/prompts.json), [보관 코드](code_snapshot/) |
 | 실제 프롬프트 채택 기록 | [24회 선택](run/guard_updates.csv), [실행 로그 발췌 및 줄 번호](run/guard_log_extract.json) |
 | 전체 평가 | [dev/test 지표](run/metrics.json), [영상별 판정](run/video_predictions.csv), [프레임별 점수](run/frame_scores.csv) |
+| Qwen·InternVL 방법론별 성능 | [발표용 비교표 및 평가 조건](docs/method_comparison.md), [CSV](run/method_comparisons.csv), [원본 출처 및 SHA-256](run/method_comparisons.json) |
 | 발표용 10개 | [영상 ID 및 207개 프레임 점수](run/presentation_cases.json) |
 | 출처 및 무결성 | [원본 파일명, SHA-256, 실행 설정](run/provenance.json) |
 | 사기·정상 각 1편의 1초 간격 캡처 | [타임라인](timeline/README.md) |
