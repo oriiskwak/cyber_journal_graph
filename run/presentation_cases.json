@@ -1,0 +1,1142 @@
+{
+  "run_id": "vdc_reflect_full_qwen_seed42",
+  "split": "test",
+  "threshold": 0.28,
+  "videos": [
+    {
+      "video_id": "abnormal_3MB8i7I-aJI",
+      "reference_label": "normal",
+      "predicted_label": "abnormal",
+      "case_type": "FP",
+      "mean_frame_score": 0.875,
+      "threshold": 0.28,
+      "frames": [
+        {
+          "second": 0,
+          "segment": "early",
+          "model_score": 0.95
+        },
+        {
+          "second": 2,
+          "segment": "early",
+          "model_score": 0.35
+        },
+        {
+          "second": 4,
+          "segment": "early",
+          "model_score": 0.95
+        },
+        {
+          "second": 6,
+          "segment": "early",
+          "model_score": 0.95
+        },
+        {
+          "second": 8,
+          "segment": "late",
+          "model_score": 0.95
+        },
+        {
+          "second": 10,
+          "segment": "late",
+          "model_score": 0.95
+        },
+        {
+          "second": 12,
+          "segment": "late",
+          "model_score": 0.95
+        },
+        {
+          "second": 14,
+          "segment": "late",
+          "model_score": 0.95
+        }
+      ]
+    },
+    {
+      "video_id": "abnormal_BU2FfjTqGY8",
+      "reference_label": "abnormal",
+      "predicted_label": "abnormal",
+      "case_type": "TP",
+      "mean_frame_score": 0.95,
+      "threshold": 0.28,
+      "frames": [
+        {
+          "second": 0,
+          "segment": "early",
+          "model_score": 0.95
+        },
+        {
+          "second": 2,
+          "segment": "early",
+          "model_score": 0.95
+        },
+        {
+          "second": 4,
+          "segment": "late",
+          "model_score": 0.95
+        },
+        {
+          "second": 6,
+          "segment": "late",
+          "model_score": 0.95
+        },
+        {
+          "second": 8,
+          "segment": "late",
+          "model_score": 0.95
+        },
+        {
+          "second": 10,
+          "segment": "late",
+          "model_score": 0.95
+        }
+      ]
+    },
+    {
+      "video_id": "abnormal_Gh9lKEY8rSM",
+      "reference_label": "abnormal",
+      "predicted_label": "normal",
+      "case_type": "FN",
+      "mean_frame_score": 0.022000000000000002,
+      "threshold": 0.28,
+      "frames": [
+        {
+          "second": 0,
+          "segment": "early",
+          "model_score": 0.0
+        },
+        {
+          "second": 2,
+          "segment": "early",
+          "model_score": 0.0
+        },
+        {
+          "second": 4,
+          "segment": "early",
+          "model_score": 0.0
+        },
+        {
+          "second": 6,
+          "segment": "early",
+          "model_score": 0.0
+        },
+        {
+          "second": 8,
+          "segment": "early",
+          "model_score": 0.0
+        },
+        {
+          "second": 10,
+          "segment": "early",
+          "model_score": 0.0
+        },
+        {
+          "second": 12,
+          "segment": "early",
+          "model_score": 0.0
+        },
+        {
+          "second": 14,
+          "segment": "early",
+          "model_score": 0.0
+        },
+        {
+          "second": 16,
+          "segment": "early",
+          "model_score": 0.0
+        },
+        {
+          "second": 18,
+          "segment": "early",
+          "model_score": 0.0
+        },
+        {
+          "second": 20,
+          "segment": "early",
+          "model_score": 0.0
+        },
+        {
+          "second": 22,
+          "segment": "early",
+          "model_score": 0.05
+        },
+        {
+          "second": 24,
+          "segment": "early",
+          "model_score": 0.05
+        },
+        {
+          "second": 26,
+          "segment": "early",
+          "model_score": 0.05
+        },
+        {
+          "second": 28,
+          "segment": "early",
+          "model_score": 0.05
+        },
+        {
+          "second": 30,
+          "segment": "early",
+          "model_score": 0.05
+        },
+        {
+          "second": 32,
+          "segment": "early",
+          "model_score": 0.05
+        },
+        {
+          "second": 34,
+          "segment": "early",
+          "model_score": 0.05
+        },
+        {
+          "second": 36,
+          "segment": "early",
+          "model_score": 0.05
+        },
+        {
+          "second": 38,
+          "segment": "early",
+          "model_score": 0.05
+        },
+        {
+          "second": 40,
+          "segment": "early",
+          "model_score": 0.05
+        },
+        {
+          "second": 42,
+          "segment": "early",
+          "model_score": 0.05
+        },
+        {
+          "second": 44,
+          "segment": "early",
+          "model_score": 0.0
+        },
+        {
+          "second": 46,
+          "segment": "late",
+          "model_score": 0.0
+        },
+        {
+          "second": 48,
+          "segment": "late",
+          "model_score": 0.0
+        }
+      ]
+    },
+    {
+      "video_id": "abnormal_NbGQtYTSu88",
+      "reference_label": "normal",
+      "predicted_label": "normal",
+      "case_type": "TN",
+      "mean_frame_score": 0.01904761904761905,
+      "threshold": 0.28,
+      "frames": [
+        {
+          "second": 0,
+          "segment": "early",
+          "model_score": 0.05
+        },
+        {
+          "second": 2,
+          "segment": "early",
+          "model_score": 0.05
+        },
+        {
+          "second": 4,
+          "segment": "early",
+          "model_score": 0.05
+        },
+        {
+          "second": 6,
+          "segment": "early",
+          "model_score": 0.05
+        },
+        {
+          "second": 8,
+          "segment": "early",
+          "model_score": 0.0
+        },
+        {
+          "second": 10,
+          "segment": "early",
+          "model_score": 0.0
+        },
+        {
+          "second": 12,
+          "segment": "early",
+          "model_score": 0.0
+        },
+        {
+          "second": 14,
+          "segment": "early",
+          "model_score": 0.0
+        },
+        {
+          "second": 16,
+          "segment": "late",
+          "model_score": 0.0
+        },
+        {
+          "second": 18,
+          "segment": "late",
+          "model_score": 0.0
+        },
+        {
+          "second": 20,
+          "segment": "late",
+          "model_score": 0.0
+        },
+        {
+          "second": 22,
+          "segment": "late",
+          "model_score": 0.0
+        },
+        {
+          "second": 24,
+          "segment": "late",
+          "model_score": 0.0
+        },
+        {
+          "second": 26,
+          "segment": "late",
+          "model_score": 0.1
+        },
+        {
+          "second": 28,
+          "segment": "late",
+          "model_score": 0.1
+        },
+        {
+          "second": 30,
+          "segment": "late",
+          "model_score": 0.0
+        },
+        {
+          "second": 32,
+          "segment": "late",
+          "model_score": 0.0
+        },
+        {
+          "second": 34,
+          "segment": "late",
+          "model_score": 0.0
+        },
+        {
+          "second": 36,
+          "segment": "late",
+          "model_score": 0.0
+        },
+        {
+          "second": 38,
+          "segment": "late",
+          "model_score": 0.0
+        },
+        {
+          "second": 40,
+          "segment": "late",
+          "model_score": 0.0
+        }
+      ]
+    },
+    {
+      "video_id": "abnormal_RHOQgOiWJjE",
+      "reference_label": "abnormal",
+      "predicted_label": "abnormal",
+      "case_type": "TP",
+      "mean_frame_score": 0.9023809523809524,
+      "threshold": 0.28,
+      "frames": [
+        {
+          "second": 0,
+          "segment": "early",
+          "model_score": 0.85
+        },
+        {
+          "second": 2,
+          "segment": "early",
+          "model_score": 0.85
+        },
+        {
+          "second": 4,
+          "segment": "early",
+          "model_score": 0.95
+        },
+        {
+          "second": 6,
+          "segment": "early",
+          "model_score": 0.95
+        },
+        {
+          "second": 8,
+          "segment": "early",
+          "model_score": 0.85
+        },
+        {
+          "second": 10,
+          "segment": "early",
+          "model_score": 0.95
+        },
+        {
+          "second": 12,
+          "segment": "early",
+          "model_score": 0.95
+        },
+        {
+          "second": 14,
+          "segment": "early",
+          "model_score": 0.85
+        },
+        {
+          "second": 16,
+          "segment": "early",
+          "model_score": 0.95
+        },
+        {
+          "second": 18,
+          "segment": "early",
+          "model_score": 0.95
+        },
+        {
+          "second": 20,
+          "segment": "early",
+          "model_score": 0.85
+        },
+        {
+          "second": 22,
+          "segment": "early",
+          "model_score": 0.85
+        },
+        {
+          "second": 24,
+          "segment": "early",
+          "model_score": 0.85
+        },
+        {
+          "second": 26,
+          "segment": "early",
+          "model_score": 0.85
+        },
+        {
+          "second": 28,
+          "segment": "early",
+          "model_score": 0.95
+        },
+        {
+          "second": 30,
+          "segment": "early",
+          "model_score": 0.95
+        },
+        {
+          "second": 32,
+          "segment": "early",
+          "model_score": 0.95
+        },
+        {
+          "second": 34,
+          "segment": "early",
+          "model_score": 0.85
+        },
+        {
+          "second": 36,
+          "segment": "early",
+          "model_score": 0.95
+        },
+        {
+          "second": 38,
+          "segment": "early",
+          "model_score": 0.95
+        },
+        {
+          "second": 40,
+          "segment": "late",
+          "model_score": 0.85
+        }
+      ]
+    },
+    {
+      "video_id": "abnormal_pjAnVlkt1r0",
+      "reference_label": "abnormal",
+      "predicted_label": "abnormal",
+      "case_type": "TP",
+      "mean_frame_score": 0.9299999999999999,
+      "threshold": 0.28,
+      "frames": [
+        {
+          "second": 0,
+          "segment": "early",
+          "model_score": 0.95
+        },
+        {
+          "second": 2,
+          "segment": "early",
+          "model_score": 0.95
+        },
+        {
+          "second": 4,
+          "segment": "late",
+          "model_score": 0.95
+        },
+        {
+          "second": 6,
+          "segment": "late",
+          "model_score": 0.85
+        },
+        {
+          "second": 8,
+          "segment": "late",
+          "model_score": 0.95
+        },
+        {
+          "second": 10,
+          "segment": "late",
+          "model_score": 0.95
+        },
+        {
+          "second": 12,
+          "segment": "late",
+          "model_score": 0.95
+        },
+        {
+          "second": 14,
+          "segment": "late",
+          "model_score": 0.95
+        },
+        {
+          "second": 16,
+          "segment": "late",
+          "model_score": 0.95
+        },
+        {
+          "second": 18,
+          "segment": "late",
+          "model_score": 0.85
+        }
+      ]
+    },
+    {
+      "video_id": "abnormal_t4uiR-C6d_M",
+      "reference_label": "normal",
+      "predicted_label": "abnormal",
+      "case_type": "FP",
+      "mean_frame_score": 0.8312499999999999,
+      "threshold": 0.28,
+      "frames": [
+        {
+          "second": 0,
+          "segment": "early",
+          "model_score": 0.95
+        },
+        {
+          "second": 2,
+          "segment": "early",
+          "model_score": 0.95
+        },
+        {
+          "second": 4,
+          "segment": "early",
+          "model_score": 0.95
+        },
+        {
+          "second": 6,
+          "segment": "late",
+          "model_score": 0.95
+        },
+        {
+          "second": 8,
+          "segment": "late",
+          "model_score": 0.95
+        },
+        {
+          "second": 10,
+          "segment": "late",
+          "model_score": 0.0
+        },
+        {
+          "second": 12,
+          "segment": "late",
+          "model_score": 0.95
+        },
+        {
+          "second": 14,
+          "segment": "late",
+          "model_score": 0.95
+        }
+      ]
+    },
+    {
+      "video_id": "normal_ROIjhO4jQ_k",
+      "reference_label": "abnormal",
+      "predicted_label": "normal",
+      "case_type": "FN",
+      "mean_frame_score": 0.2451219512195122,
+      "threshold": 0.28,
+      "frames": [
+        {
+          "second": 0,
+          "segment": "early",
+          "model_score": 0.25
+        },
+        {
+          "second": 2,
+          "segment": "early",
+          "model_score": 0.25
+        },
+        {
+          "second": 4,
+          "segment": "early",
+          "model_score": 0.25
+        },
+        {
+          "second": 6,
+          "segment": "early",
+          "model_score": 0.25
+        },
+        {
+          "second": 8,
+          "segment": "early",
+          "model_score": 0.25
+        },
+        {
+          "second": 10,
+          "segment": "early",
+          "model_score": 0.25
+        },
+        {
+          "second": 12,
+          "segment": "early",
+          "model_score": 0.25
+        },
+        {
+          "second": 14,
+          "segment": "early",
+          "model_score": 0.25
+        },
+        {
+          "second": 16,
+          "segment": "early",
+          "model_score": 0.25
+        },
+        {
+          "second": 18,
+          "segment": "early",
+          "model_score": 0.25
+        },
+        {
+          "second": 20,
+          "segment": "early",
+          "model_score": 0.25
+        },
+        {
+          "second": 22,
+          "segment": "early",
+          "model_score": 0.25
+        },
+        {
+          "second": 24,
+          "segment": "early",
+          "model_score": 0.25
+        },
+        {
+          "second": 26,
+          "segment": "early",
+          "model_score": 0.25
+        },
+        {
+          "second": 28,
+          "segment": "early",
+          "model_score": 0.25
+        },
+        {
+          "second": 30,
+          "segment": "early",
+          "model_score": 0.25
+        },
+        {
+          "second": 32,
+          "segment": "early",
+          "model_score": 0.25
+        },
+        {
+          "second": 34,
+          "segment": "early",
+          "model_score": 0.25
+        },
+        {
+          "second": 36,
+          "segment": "early",
+          "model_score": 0.25
+        },
+        {
+          "second": 38,
+          "segment": "early",
+          "model_score": 0.25
+        },
+        {
+          "second": 40,
+          "segment": "early",
+          "model_score": 0.25
+        },
+        {
+          "second": 42,
+          "segment": "early",
+          "model_score": 0.25
+        },
+        {
+          "second": 44,
+          "segment": "early",
+          "model_score": 0.25
+        },
+        {
+          "second": 46,
+          "segment": "early",
+          "model_score": 0.25
+        },
+        {
+          "second": 48,
+          "segment": "early",
+          "model_score": 0.25
+        },
+        {
+          "second": 50,
+          "segment": "early",
+          "model_score": 0.25
+        },
+        {
+          "second": 52,
+          "segment": "early",
+          "model_score": 0.25
+        },
+        {
+          "second": 54,
+          "segment": "early",
+          "model_score": 0.25
+        },
+        {
+          "second": 56,
+          "segment": "early",
+          "model_score": 0.25
+        },
+        {
+          "second": 58,
+          "segment": "early",
+          "model_score": 0.25
+        },
+        {
+          "second": 60,
+          "segment": "early",
+          "model_score": 0.25
+        },
+        {
+          "second": 62,
+          "segment": "early",
+          "model_score": 0.25
+        },
+        {
+          "second": 64,
+          "segment": "early",
+          "model_score": 0.25
+        },
+        {
+          "second": 66,
+          "segment": "early",
+          "model_score": 0.25
+        },
+        {
+          "second": 68,
+          "segment": "early",
+          "model_score": 0.25
+        },
+        {
+          "second": 70,
+          "segment": "late",
+          "model_score": 0.25
+        },
+        {
+          "second": 72,
+          "segment": "late",
+          "model_score": 0.25
+        },
+        {
+          "second": 74,
+          "segment": "late",
+          "model_score": 0.15
+        },
+        {
+          "second": 76,
+          "segment": "late",
+          "model_score": 0.15
+        },
+        {
+          "second": 78,
+          "segment": "late",
+          "model_score": 0.25
+        },
+        {
+          "second": 80,
+          "segment": "late",
+          "model_score": 0.25
+        }
+      ]
+    },
+    {
+      "video_id": "normal_qsHWozaXnnw",
+      "reference_label": "normal",
+      "predicted_label": "normal",
+      "case_type": "TN",
+      "mean_frame_score": 0.0,
+      "threshold": 0.28,
+      "frames": [
+        {
+          "second": 0,
+          "segment": "early",
+          "model_score": 0.0
+        },
+        {
+          "second": 2,
+          "segment": "early",
+          "model_score": 0.0
+        },
+        {
+          "second": 4,
+          "segment": "early",
+          "model_score": 0.0
+        },
+        {
+          "second": 6,
+          "segment": "early",
+          "model_score": 0.0
+        },
+        {
+          "second": 8,
+          "segment": "early",
+          "model_score": 0.0
+        },
+        {
+          "second": 10,
+          "segment": "early",
+          "model_score": 0.0
+        },
+        {
+          "second": 12,
+          "segment": "early",
+          "model_score": 0.0
+        },
+        {
+          "second": 14,
+          "segment": "early",
+          "model_score": 0.0
+        },
+        {
+          "second": 16,
+          "segment": "early",
+          "model_score": 0.0
+        },
+        {
+          "second": 18,
+          "segment": "early",
+          "model_score": 0.0
+        },
+        {
+          "second": 20,
+          "segment": "early",
+          "model_score": 0.0
+        },
+        {
+          "second": 22,
+          "segment": "late",
+          "model_score": 0.0
+        },
+        {
+          "second": 24,
+          "segment": "late",
+          "model_score": 0.0
+        },
+        {
+          "second": 26,
+          "segment": "late",
+          "model_score": 0.0
+        },
+        {
+          "second": 28,
+          "segment": "late",
+          "model_score": 0.0
+        },
+        {
+          "second": 30,
+          "segment": "late",
+          "model_score": 0.0
+        },
+        {
+          "second": 32,
+          "segment": "late",
+          "model_score": 0.0
+        },
+        {
+          "second": 34,
+          "segment": "late",
+          "model_score": 0.0
+        },
+        {
+          "second": 36,
+          "segment": "late",
+          "model_score": 0.0
+        },
+        {
+          "second": 38,
+          "segment": "late",
+          "model_score": 0.0
+        }
+      ]
+    },
+    {
+      "video_id": "normal_tM4Mo2dbLq0",
+      "reference_label": "normal",
+      "predicted_label": "normal",
+      "case_type": "TN",
+      "mean_frame_score": 0.009574468085106383,
+      "threshold": 0.28,
+      "frames": [
+        {
+          "second": 0,
+          "segment": "early",
+          "model_score": 0.15
+        },
+        {
+          "second": 2,
+          "segment": "early",
+          "model_score": 0.15
+        },
+        {
+          "second": 4,
+          "segment": "early",
+          "model_score": 0.15
+        },
+        {
+          "second": 6,
+          "segment": "late",
+          "model_score": 0.0
+        },
+        {
+          "second": 8,
+          "segment": "late",
+          "model_score": 0.0
+        },
+        {
+          "second": 10,
+          "segment": "late",
+          "model_score": 0.0
+        },
+        {
+          "second": 12,
+          "segment": "late",
+          "model_score": 0.0
+        },
+        {
+          "second": 14,
+          "segment": "late",
+          "model_score": 0.0
+        },
+        {
+          "second": 16,
+          "segment": "late",
+          "model_score": 0.0
+        },
+        {
+          "second": 18,
+          "segment": "late",
+          "model_score": 0.0
+        },
+        {
+          "second": 20,
+          "segment": "late",
+          "model_score": 0.0
+        },
+        {
+          "second": 22,
+          "segment": "late",
+          "model_score": 0.0
+        },
+        {
+          "second": 24,
+          "segment": "late",
+          "model_score": 0.0
+        },
+        {
+          "second": 26,
+          "segment": "late",
+          "model_score": 0.0
+        },
+        {
+          "second": 28,
+          "segment": "late",
+          "model_score": 0.0
+        },
+        {
+          "second": 30,
+          "segment": "late",
+          "model_score": 0.0
+        },
+        {
+          "second": 32,
+          "segment": "late",
+          "model_score": 0.0
+        },
+        {
+          "second": 34,
+          "segment": "late",
+          "model_score": 0.0
+        },
+        {
+          "second": 36,
+          "segment": "late",
+          "model_score": 0.0
+        },
+        {
+          "second": 38,
+          "segment": "late",
+          "model_score": 0.0
+        },
+        {
+          "second": 40,
+          "segment": "late",
+          "model_score": 0.0
+        },
+        {
+          "second": 42,
+          "segment": "late",
+          "model_score": 0.0
+        },
+        {
+          "second": 44,
+          "segment": "late",
+          "model_score": 0.0
+        },
+        {
+          "second": 46,
+          "segment": "late",
+          "model_score": 0.0
+        },
+        {
+          "second": 48,
+          "segment": "late",
+          "model_score": 0.0
+        },
+        {
+          "second": 50,
+          "segment": "late",
+          "model_score": 0.0
+        },
+        {
+          "second": 52,
+          "segment": "late",
+          "model_score": 0.0
+        },
+        {
+          "second": 54,
+          "segment": "late",
+          "model_score": 0.0
+        },
+        {
+          "second": 56,
+          "segment": "late",
+          "model_score": 0.0
+        },
+        {
+          "second": 58,
+          "segment": "late",
+          "model_score": 0.0
+        },
+        {
+          "second": 60,
+          "segment": "late",
+          "model_score": 0.0
+        },
+        {
+          "second": 62,
+          "segment": "late",
+          "model_score": 0.0
+        },
+        {
+          "second": 64,
+          "segment": "late",
+          "model_score": 0.0
+        },
+        {
+          "second": 66,
+          "segment": "late",
+          "model_score": 0.0
+        },
+        {
+          "second": 68,
+          "segment": "late",
+          "model_score": 0.0
+        },
+        {
+          "second": 70,
+          "segment": "late",
+          "model_score": 0.0
+        },
+        {
+          "second": 72,
+          "segment": "late",
+          "model_score": 0.0
+        },
+        {
+          "second": 74,
+          "segment": "late",
+          "model_score": 0.0
+        },
+        {
+          "second": 76,
+          "segment": "late",
+          "model_score": 0.0
+        },
+        {
+          "second": 78,
+          "segment": "late",
+          "model_score": 0.0
+        },
+        {
+          "second": 80,
+          "segment": "late",
+          "model_score": 0.0
+        },
+        {
+          "second": 82,
+          "segment": "late",
+          "model_score": 0.0
+        },
+        {
+          "second": 84,
+          "segment": "late",
+          "model_score": 0.0
+        },
+        {
+          "second": 86,
+          "segment": "late",
+          "model_score": 0.0
+        },
+        {
+          "second": 88,
+          "segment": "late",
+          "model_score": 0.0
+        },
+        {
+          "second": 90,
+          "segment": "late",
+          "model_score": 0.0
+        },
+        {
+          "second": 92,
+          "segment": "late",
+          "model_score": 0.0
+        }
+      ]
+    }
+  ]
+}

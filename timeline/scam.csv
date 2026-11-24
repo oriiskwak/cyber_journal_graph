@@ -1,0 +1,14 @@
+video_id,second,screen_text_excerpt,reviewed_object_allowlist,segment,model_score,observed_content_used_as_structured_classifier_input,object_level_attribution_recorded
+abnormal_BU2FfjTqGY8,0,24시간 VVIP 리딩방 초대,채팅 UI · 메시지 목록 · 홍보 배너,early,0.95,False,False
+abnormal_BU2FfjTqGY8,1,24시간 VVIP 리딩방 초대,채팅 UI · 메시지 목록 · 홍보 배너,,,False,False
+abnormal_BU2FfjTqGY8,2,24시간 VVIP 리딩방 초대,채팅 UI · 메시지 목록 · 홍보 배너,early,0.95,False,False
+abnormal_BU2FfjTqGY8,3,24시간 VVIP 리딩방 초대,채팅 UI · 메시지 목록 · 홍보 배너,,,False,False
+abnormal_BU2FfjTqGY8,4,24시간 VVIP 리딩방 초대,채팅 UI · 메시지 목록 · 홍보 배너,late,0.95,False,False
+abnormal_BU2FfjTqGY8,5,24시간 VVIP 리딩방 초대,채팅 UI · 메시지 목록 · 홍보 배너,,,False,False
+abnormal_BU2FfjTqGY8,6,24시간 VVIP 리딩방 초대,채팅 UI · 메시지 목록 · 홍보 배너,late,0.95,False,False
+abnormal_BU2FfjTqGY8,7,24시간 VVIP 리딩방 초대,채팅 UI · 메시지 목록 · 홍보 배너,,,False,False
+abnormal_BU2FfjTqGY8,8,24시간 VVIP 리딩방 초대,채팅 UI · 메시지 목록 · 홍보 배너,late,0.95,False,False
+abnormal_BU2FfjTqGY8,9,24시간 VVIP 리딩방 초대,채팅 UI · 메시지 목록 · 홍보 배너,,,False,False
+abnormal_BU2FfjTqGY8,10,24시간 VVIP 리딩방 초대,채팅 UI · 메시지 목록 · 홍보 배너,late,0.95,False,False
+abnormal_BU2FfjTqGY8,11,24시간 VVIP 리딩방 초대,채팅 UI · 메시지 목록 · 홍보 배너,,,False,False
+abnormal_BU2FfjTqGY8,12,24시간 VVIP 리딩방 초대,채팅 UI · 메시지 목록 · 홍보 배너,,,False,False

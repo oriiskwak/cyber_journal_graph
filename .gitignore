@@ -1,0 +1,9 @@
+.env
+.env.*
+secrets/
+credentials/
+*Created-*.txt
+*.mp4
+*.mov
+*.safetensors
+__pycache__/
