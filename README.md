@@ -15,4 +15,4 @@
 
 10개 사례는 TP 3편, TN 3편, FP 2편, FN 2편이다. 저장된 평균 점수 기준으로 TP·FP의 높은 점수 사례와 TN의 낮은 점수 사례를 골랐고, test의 FN 2편을 모두 포함했다. 따라서 전체 성능은 test 121개의 지표로 보고한다. `normal_`과 `abnormal_`은 파일명 접두사이며 평가 라벨은 결과 JSON의 `label` 필드다.
 
-다른 서버에서 생산한 `temporal_observations.json`과 `tempo10_evidence_graph.json`은 후속 커밋 대상으로 남겨두었다. 이 저장소에는 발표용 화면 발췌, 저장 예측과 검토 쿼리가 있다.
+사후 근거 추출 결과의 공개 발표용 사본은 [시점별 관찰 JSON](graph/temporal_observations.json)과 [근거 그래프 JSON](graph/tempo10_evidence_graph.json)에 있다. 마스킹 범위와 검증 결과는 [그래프 README](graph/README.md)를 참고한다.

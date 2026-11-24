@@ -1,0 +1,3143 @@
+{
+  "status": "ok",
+  "method": "label_blind_visual_observation",
+  "model": "Qwen/Qwen2.5-VL-7B-Instruct-AWQ",
+  "videos": {
+    "abnormal_BU2FfjTqGY8": {
+      "status": "ok",
+      "observations": [
+        {
+          "second": 0,
+          "event_type": "DISPLAY_TRANSACTION",
+          "event_summary": "거래 정보를 표시합니다.",
+          "screen_text": [],
+          "visual_objects": [],
+          "entities": [],
+          "tactics": [
+            "NONE"
+          ],
+          "uncertainty": 0.0,
+          "observation_basis": "거래 정보가 화면에 표시됩니다."
+        },
+        {
+          "second": 2,
+          "event_type": "DISPLAY_TRANSACTION",
+          "event_summary": "거래 정보를 표시합니다.",
+          "screen_text": [],
+          "visual_objects": [],
+          "entities": [],
+          "tactics": [
+            "NONE"
+          ],
+          "uncertainty": 0.0,
+          "observation_basis": "거래 정보가 화면에 표시됩니다."
+        },
+        {
+          "second": 4,
+          "event_type": "DISPLAY_TRANSACTION",
+          "event_summary": "거래 정보를 표시합니다.",
+          "screen_text": [],
+          "visual_objects": [],
+          "entities": [],
+          "tactics": [
+            "NONE"
+          ],
+          "uncertainty": 0.0,
+          "observation_basis": "거래 정보가 화면에 표시됩니다."
+        },
+        {
+          "second": 6,
+          "event_type": "DISPLAY_TRANSACTION",
+          "event_summary": "거래 정보를 표시합니다.",
+          "screen_text": [],
+          "visual_objects": [],
+          "entities": [],
+          "tactics": [
+            "NONE"
+          ],
+          "uncertainty": 0.0,
+          "observation_basis": "거래 정보가 화면에 표시됩니다."
+        },
+        {
+          "second": 8,
+          "event_type": "DISPLAY_TRANSACTION",
+          "event_summary": "거래 내역을 표시합니다.",
+          "screen_text": [],
+          "visual_objects": [],
+          "entities": [],
+          "tactics": [
+            "NONE"
+          ],
+          "uncertainty": 0.0,
+          "observation_basis": "거래 내역이 화면에 표시됩니다."
+        },
+        {
+          "second": 10,
+          "event_type": "DISPLAY_TRANSACTION",
+          "event_summary": "거래 내역을 표시합니다.",
+          "screen_text": [],
+          "visual_objects": [],
+          "entities": [],
+          "tactics": [
+            "NONE"
+          ],
+          "uncertainty": 0.0,
+          "observation_basis": "거래 내역이 화면에 표시됩니다."
+        }
+      ]
+    },
+    "abnormal_pjAnVlkt1r0": {
+      "status": "ok",
+      "observations": [
+        {
+          "second": 0,
+          "event_type": "DISPLAY_TRANSACTION",
+          "event_summary": "해외 코인 주식의 현재 가격과 변동률을 표시합니다.",
+          "screen_text": [],
+          "visual_objects": [
+            "주식 그래프",
+            "가격 표시",
+            "변동률 표시"
+          ],
+          "entities": [
+            {
+              "name": "Rocket Lab USA",
+              "type": "ORGANIZATION"
+            },
+            {
+              "name": "Quantum Computing Inc.",
+              "type": "ORGANIZATION"
+            }
+          ],
+          "tactics": [
+            "NONE"
+          ],
+          "uncertainty": 0.0,
+          "observation_basis": "현재 가격과 변동률이 주식 그래프에 표시됩니다."
+        },
+        {
+          "second": 2,
+          "event_type": "DISPLAY_TRANSACTION",
+          "event_summary": "해외 코인 주식의 현재 가격과 변동률을 표시합니다.",
+          "screen_text": [],
+          "visual_objects": [
+            "주식 그래프",
+            "가격 표시",
+            "변동률 표시"
+          ],
+          "entities": [
+            {
+              "name": "Rocket Lab USA",
+              "type": "ORGANIZATION"
+            },
+            {
+              "name": "Quantum Computing Inc.",
+              "type": "ORGANIZATION"
+            }
+          ],
+          "tactics": [
+            "NONE"
+          ],
+          "uncertainty": 0.0,
+          "observation_basis": "현재 가격과 변동률이 주식 그래프에 표시됩니다."
+        },
+        {
+          "second": 4,
+          "event_type": "DISPLAY_TRANSACTION",
+          "event_summary": "해외 코인 주식의 현재 가격과 변동률을 표시합니다.",
+          "screen_text": [],
+          "visual_objects": [
+            "주식 그래프",
+            "가격 표시",
+            "변동률 표시"
+          ],
+          "entities": [
+            {
+              "name": "Rocket Lab USA",
+              "type": "ORGANIZATION"
+            },
+            {
+              "name": "Quantum Computing Inc.",
+              "type": "ORGANIZATION"
+            }
+          ],
+          "tactics": [
+            "NONE"
+          ],
+          "uncertainty": 0.0,
+          "observation_basis": "현재 가격과 변동률이 주식 그래프에 표시됩니다."
+        },
+        {
+          "second": 6,
+          "event_type": "DISPLAY_TRANSACTION",
+          "event_summary": "해외 코인 주식의 현재 가격과 변동률을 표시합니다.",
+          "screen_text": [],
+          "visual_objects": [
+            "주식 그래프",
+            "가격 표시",
+            "변동률 표시"
+          ],
+          "entities": [
+            {
+              "name": "Rocket Lab USA",
+              "type": "ORGANIZATION"
+            },
+            {
+              "name": "Quantum Computing Inc.",
+              "type": "ORGANIZATION"
+            }
+          ],
+          "tactics": [
+            "NONE"
+          ],
+          "uncertainty": 0.0,
+          "observation_basis": "현재 가격과 변동률이 주식 그래프에 표시됩니다."
+        },
+        {
+          "second": 8,
+          "event_type": "DISPLAY_TRANSACTION",
+          "event_summary": "해외 코인 주식의 현재 가격과 변동률을 표시.",
+          "screen_text": [],
+          "visual_objects": [
+            "주식 그래프",
+            "가격 표시",
+            "변동률 표시"
+          ],
+          "entities": [
+            {
+              "name": "해외 코인 주식",
+              "type": "CRYPTO_ASSET"
+            }
+          ],
+          "tactics": [
+            "SOCIAL_PROOF"
+          ],
+          "uncertainty": 0.3,
+          "observation_basis": "현재 가격과 변동률이 해외 코인 주식에 대한 정보를 제공함."
+        },
+        {
+          "second": 10,
+          "event_type": "DISPLAY_TRANSACTION",
+          "event_summary": "해외 코인 주식의 현재 가격과 변동률을 표시.",
+          "screen_text": [],
+          "visual_objects": [
+            "주식 그래프",
+            "가격 표시",
+            "변동률 표시"
+          ],
+          "entities": [
+            {
+              "name": "해외 코인 주식",
+              "type": "CRYPTO_ASSET"
+            }
+          ],
+          "tactics": [
+            "SOCIAL_PROOF"
+          ],
+          "uncertainty": 0.3,
+          "observation_basis": "현재 가격과 변동률이 해외 코인 주식에 대한 정보를 제공함."
+        },
+        {
+          "second": 12,
+          "event_type": "DISPLAY_TRANSACTION",
+          "event_summary": "해외 코인 주식의 현재 가격과 변동률을 표시.",
+          "screen_text": [],
+          "visual_objects": [
+            "주식 그래프",
+            "가격 표시",
+            "변동률 표시"
+          ],
+          "entities": [
+            {
+              "name": "해외 코인 주식",
+              "type": "CRYPTO_ASSET"
+            }
+          ],
+          "tactics": [
+            "SOCIAL_PROOF"
+          ],
+          "uncertainty": 0.3,
+          "observation_basis": "현재 가격과 변동률이 해외 코인 주식에 대한 정보를 제공함."
+        },
+        {
+          "second": 14,
+          "event_type": "DISPLAY_TRANSACTION",
+          "event_summary": "해외 코인 주식의 현재 가격과 변동률을 표시.",
+          "screen_text": [],
+          "visual_objects": [
+            "주식 그래프",
+            "가격 표시",
+            "변동률 표시"
+          ],
+          "entities": [
+            {
+              "name": "해외 코인 주식",
+              "type": "CRYPTO_ASSET"
+            }
+          ],
+          "tactics": [
+            "SOCIAL_PROOF"
+          ],
+          "uncertainty": 0.3,
+          "observation_basis": "현재 가격과 변동률이 해외 코인 주식에 대한 정보를 제공함."
+        },
+        {
+          "second": 16,
+          "event_type": "DISPLAY_TRANSACTION",
+          "event_summary": "해외 코인 주식의 가격과 변동률을 표시.",
+          "screen_text": [],
+          "visual_objects": [
+            "주식 그래프",
+            "가격 표시",
+            "변동률 표시"
+          ],
+          "entities": [
+            {
+              "name": "WAVE QUANTUM",
+              "type": "ORGANIZATION"
+            },
+            {
+              "name": "PLANET LABS PBC",
+              "type": "ORGANIZATION"
+            }
+          ],
+          "tactics": [
+            "NONE"
+          ],
+          "uncertainty": 0.0,
+          "observation_basis": "해외 코인 주식의 가격과 변동률이 표시되어 있습니다."
+        },
+        {
+          "second": 18,
+          "event_type": "DISPLAY_TRANSACTION",
+          "event_summary": "해외 코인 주식의 가격과 변동률을 표시.",
+          "screen_text": [],
+          "visual_objects": [
+            "주식 그래프",
+            "가격 표시",
+            "변동률 표시"
+          ],
+          "entities": [
+            {
+              "name": "WAVE QUANTUM",
+              "type": "ORGANIZATION"
+            },
+            {
+              "name": "PLANET LABS PBC",
+              "type": "ORGANIZATION"
+            }
+          ],
+          "tactics": [
+            "NONE"
+          ],
+          "uncertainty": 0.0,
+          "observation_basis": "해외 코인 주식의 가격과 변동률이 표시되어 있습니다."
+        }
+      ]
+    },
+    "abnormal_RHOQgOiWJjE": {
+      "status": "ok",
+      "observations": [
+        {
+          "second": 0,
+          "event_type": "DISPLAY_TRANSACTION",
+          "event_summary": "폰 앨범 사진으로 월 100만원 버는 법!",
+          "screen_text": [],
+          "visual_objects": [
+            "폰 앨범",
+            "손가락"
+          ],
+          "entities": [],
+          "tactics": [
+            "SOCIAL_PROOF"
+          ],
+          "uncertainty": 0.5,
+          "observation_basis": "폰 앨범 사진으로 월 100만원 버는 법!"
+        },
+        {
+          "second": 2,
+          "event_type": "DISPLAY_TRANSACTION",
+          "event_summary": "폰 앨범 사진으로 월 100만원 버는 법!",
+          "screen_text": [],
+          "visual_objects": [
+            "폰 앨범",
+            "손가락"
+          ],
+          "entities": [],
+          "tactics": [
+            "SOCIAL_PROOF"
+          ],
+          "uncertainty": 0.5,
+          "observation_basis": "폰 앨범 사진으로 월 100만원 버는 법!"
+        },
+        {
+          "second": 4,
+          "event_type": "DISPLAY_TRANSACTION",
+          "event_summary": "매일 아침 정산 알림을 받게 만드는",
+          "screen_text": [],
+          "visual_objects": [
+            "돈",
+            "폰 앨범"
+          ],
+          "entities": [],
+          "tactics": [
+            "SOCIAL_PROOF"
+          ],
+          "uncertainty": 0.5,
+          "observation_basis": "매일 아침 정산 알림을 받게 만드는"
+        },
+        {
+          "second": 6,
+          "event_type": "DISPLAY_TRANSACTION",
+          "event_summary": "말그대로 자면서 벌리는",
+          "screen_text": [],
+          "visual_objects": [
+            "돈",
+            "폰 앨범"
+          ],
+          "entities": [],
+          "tactics": [
+            "SOCIAL_PROOF"
+          ],
+          "uncertainty": 0.5,
+          "observation_basis": "말그대로 자면서 벌리는"
+        },
+        {
+          "second": 8,
+          "event_type": "DISPLAY_TRANSACTION",
+          "event_summary": "월 100만원 버는 법!",
+          "screen_text": [],
+          "visual_objects": [
+            "폰 앨범 사진으로",
+            "월 100만원 버는 법!"
+          ],
+          "entities": [],
+          "tactics": [
+            "SOCIAL_PROOF"
+          ],
+          "uncertainty": 0.3,
+          "observation_basis": "월 100만원 버는 법"
+        },
+        {
+          "second": 10,
+          "event_type": "DISPLAY_TRANSACTION",
+          "event_summary": "한달 최소 수십장만 올려도",
+          "screen_text": [],
+          "visual_objects": [
+            "폰 앨범 사진으로",
+            "월 100만원 버는 법!",
+            "한달 최소 수십장만 올려도"
+          ],
+          "entities": [],
+          "tactics": [
+            "SOCIAL_PROOF"
+          ],
+          "uncertainty": 0.3,
+          "observation_basis": "한달 최소 수십장만 올려도"
+        },
+        {
+          "second": 12,
+          "event_type": "DISPLAY_TRANSACTION",
+          "event_summary": "사진 업로드 자동 수익구조가 돌아가요",
+          "screen_text": [],
+          "visual_objects": [
+            "폰 앨범 사진으로",
+            "월 100만원 버는 법!",
+            "한달 최소 수십장만 올려도",
+            "사진 업로드 자동 수익구조가 돌아가요"
+          ],
+          "entities": [],
+          "tactics": [
+            "SOCIAL_PROOF"
+          ],
+          "uncertainty": 0.3,
+          "observation_basis": "사진 업로드 자동 수익구조가 돌아가요"
+        },
+        {
+          "second": 14,
+          "event_type": "DISPLAY_TRANSACTION",
+          "event_summary": "핵심은 '잘 찍는 능력'이 아니라",
+          "screen_text": [],
+          "visual_objects": [
+            "폰 앨범 사진으로",
+            "월 100만원 버는 법!",
+            "한달 최소 수십장만 올려도",
+            "사진 업로드 자동 수익구조가 돌아가요",
+            "핵심은 '잘 찍는 능력'이 아니라"
+          ],
+          "entities": [],
+          "tactics": [
+            "SOCIAL_PROOF"
+          ],
+          "uncertainty": 0.3,
+          "observation_basis": "핵심은 '잘 찍는 능력'이 아니라"
+        },
+        {
+          "second": 16,
+          "event_type": "DISPLAY_TRANSACTION",
+          "event_summary": "월 100만원 버는 법!",
+          "screen_text": [],
+          "visual_objects": [
+            "폰 앨범 사진으로",
+            "월 100만원 버는 법!"
+          ],
+          "entities": [],
+          "tactics": [
+            "SOCIAL_PROOF"
+          ],
+          "uncertainty": 0.3,
+          "observation_basis": "월 100만원 버는 법!"
+        },
+        {
+          "second": 18,
+          "event_type": "DISPLAY_TRANSACTION",
+          "event_summary": "세상의 모든 디자인은 미리캔버스로 완성",
+          "screen_text": [
+            "세상의 모든 디자인은",
+            "미리캔버스로 완성"
+          ],
+          "visual_objects": [
+            "세상의 모든 디자인은",
+            "미리캔버스로 완성"
+          ],
+          "entities": [],
+          "tactics": [
+            "SOCIAL_PROOF"
+          ],
+          "uncertainty": 0.3,
+          "observation_basis": "세상의 모든 디자인은 미리캔버스로 완성"
+        },
+        {
+          "second": 20,
+          "event_type": "DISPLAY_TRANSACTION",
+          "event_summary": "국내 디자인 플랫폼에 이미지 마켓을 활용해",
+          "screen_text": [
+            "국내 디자인 플랫폼에",
+            "이미지 마켓을 활용해"
+          ],
+          "visual_objects": [
+            "국내 디자인 플랫폼에",
+            "이미지 마켓을 활용해"
+          ],
+          "entities": [],
+          "tactics": [
+            "SOCIAL_PROOF"
+          ],
+          "uncertainty": 0.3,
+          "observation_basis": "국내 디자인 플랫폼에 이미지 마켓을 활용해"
+        },
+        {
+          "second": 22,
+          "event_type": "DISPLAY_TRANSACTION",
+          "event_summary": "앨범 속 풍경, 카페 음식, 길냥이, 책상 셋업",
+          "screen_text": [
+            "앨범 속 풍경,",
+            "카페 음식,",
+            "길냥이,",
+            "책상 셋업"
+          ],
+          "visual_objects": [
+            "앨범 속 풍경,",
+            "카페 음식,",
+            "길냥이,",
+            "책상 셋업"
+          ],
+          "entities": [],
+          "tactics": [
+            "SOCIAL_PROOF"
+          ],
+          "uncertainty": 0.3,
+          "observation_basis": "앨범 속 풍경, 카페 음식, 길냥이, 책상 셋업"
+        },
+        {
+          "second": 24,
+          "event_type": "DISPLAY_TRANSACTION",
+          "event_summary": "폰 앨범 사진으로 월 100만원 버는 법!",
+          "screen_text": [],
+          "visual_objects": [
+            "폰 앨범",
+            "풍경사진",
+            "카페사진"
+          ],
+          "entities": [],
+          "tactics": [
+            "SOCIAL_PROOF"
+          ],
+          "uncertainty": 0.5,
+          "observation_basis": "폰 앨범 사진으로 월 100만원 버는 법!"
+        },
+        {
+          "second": 26,
+          "event_type": "DISPLAY_TRANSACTION",
+          "event_summary": "폰 앨범 사진으로 월 100만원 버는 법!",
+          "screen_text": [],
+          "visual_objects": [
+            "폰 앨범",
+            "풍경사진",
+            "카페사진",
+            "여행사진"
+          ],
+          "entities": [],
+          "tactics": [
+            "SOCIAL_PROOF"
+          ],
+          "uncertainty": 0.5,
+          "observation_basis": "폰 앨범 사진으로 월 100만원 버는 법!"
+        },
+        {
+          "second": 28,
+          "event_type": "DISPLAY_TRANSACTION",
+          "event_summary": "폰 앨범 사진으로 월 100만원 버는 법!",
+          "screen_text": [],
+          "visual_objects": [
+            "폰 앨범",
+            "풍경사진",
+            "카페사진",
+            "여행사진"
+          ],
+          "entities": [],
+          "tactics": [
+            "SOCIAL_PROOF"
+          ],
+          "uncertainty": 0.5,
+          "observation_basis": "폰 앨범 사진으로 월 100만원 버는 법!"
+        },
+        {
+          "second": 30,
+          "event_type": "DISPLAY_TRANSACTION",
+          "event_summary": "폰 앨범 사진으로 월 100만원 버는 법!",
+          "screen_text": [],
+          "visual_objects": [
+            "폰 앨범",
+            "풍경사진",
+            "카페사진",
+            "여행사진"
+          ],
+          "entities": [],
+          "tactics": [
+            "SOCIAL_PROOF"
+          ],
+          "uncertainty": 0.5,
+          "observation_basis": "폰 앨범 사진으로 월 100만원 버는 법!"
+        },
+        {
+          "second": 32,
+          "event_type": "DISPLAY_TRANSACTION",
+          "event_summary": "월 100만원 버는 법!",
+          "screen_text": [],
+          "visual_objects": [
+            "돈"
+          ],
+          "entities": [],
+          "tactics": [
+            "SOCIAL_PROOF"
+          ],
+          "uncertainty": 0.5,
+          "observation_basis": "월 100만원 버는 법!라는 문구와 함께 돈의 이미지가 보입니다."
+        },
+        {
+          "second": 34,
+          "event_type": "DISPLAY_TRANSACTION",
+          "event_summary": "폰 앨범 사진으로",
+          "screen_text": [],
+          "visual_objects": [
+            "폰"
+          ],
+          "entities": [],
+          "tactics": [
+            "SOCIAL_PROOF"
+          ],
+          "uncertainty": 0.5,
+          "observation_basis": "폰 앨범 사진으로라는 문구와 함께 폰의 이미지가 보입니다."
+        },
+        {
+          "second": 36,
+          "event_type": "DISPLAY_TRANSACTION",
+          "event_summary": "월 100만원 버는 법!",
+          "screen_text": [],
+          "visual_objects": [
+            "돈"
+          ],
+          "entities": [],
+          "tactics": [
+            "SOCIAL_PROOF"
+          ],
+          "uncertainty": 0.5,
+          "observation_basis": "월 100만원 버는 법!라는 문구와 함께 돈의 이미지가 보입니다."
+        },
+        {
+          "second": 38,
+          "event_type": "DISPLAY_TRANSACTION",
+          "event_summary": "부자가 되던 어느 날 밤",
+          "screen_text": [],
+          "visual_objects": [
+            "돈"
+          ],
+          "entities": [],
+          "tactics": [
+            "SOCIAL_PROOF"
+          ],
+          "uncertainty": 0.5,
+          "observation_basis": "부자가 되던 어느 날 밤이라는 문구와 함께 돈의 이미지가 보입니다."
+        },
+        {
+          "second": 40,
+          "event_type": "DISPLAY_TRANSACTION",
+          "event_summary": "월 100만원 버는 법!",
+          "screen_text": [],
+          "visual_objects": [
+            "폰 앨범 사진으로",
+            "월 100만원 버는 법!"
+          ],
+          "entities": [],
+          "tactics": [
+            "SOCIAL_PROOF"
+          ],
+          "uncertainty": 0.2,
+          "observation_basis": "월 100만원 버는 법!"
+        }
+      ]
+    },
+    "normal_qsHWozaXnnw": {
+      "status": "ok",
+      "observations": [
+        {
+          "second": 0,
+          "event_type": "NEWS_REPORTING",
+          "event_summary": "보이스피싱 수거책",
+          "screen_text": [
+            "대구 MBC NEWS",
+            "보이스피싱 수거책",
+            "50대에게 징역 2년 선고"
+          ],
+          "visual_objects": [],
+          "entities": [],
+          "tactics": [
+            "NONE"
+          ],
+          "uncertainty": 0.0,
+          "observation_basis": "뉴스 보도 내용과 관련된 텍스트가 보입니다."
+        },
+        {
+          "second": 2,
+          "event_type": "NEWS_REPORTING",
+          "event_summary": "보이스피싱 수거책",
+          "screen_text": [
+            "대구 MBC NEWS",
+            "보이스피싱 수거책",
+            "50대에게 징역 2년 선고"
+          ],
+          "visual_objects": [],
+          "entities": [],
+          "tactics": [
+            "NONE"
+          ],
+          "uncertainty": 0.0,
+          "observation_basis": "뉴스 보도 내용과 관련된 텍스트가 계속해서 보입니다."
+        },
+        {
+          "second": 4,
+          "event_type": "NEWS_REPORTING",
+          "event_summary": "보이스피싱 현금 수거책으로 돈을 가로챈 혐의로 기소된 50대 남성에게",
+          "screen_text": [
+            "대구지법 제13형사부 [이름 비공개] 부장판사는"
+          ],
+          "visual_objects": [],
+          "entities": [],
+          "tactics": [
+            "NONE"
+          ],
+          "uncertainty": 0.0,
+          "observation_basis": "뉴스 보도 내용과 관련된 텍스트가 계속해서 보입니다."
+        },
+        {
+          "second": 6,
+          "event_type": "NEWS_REPORTING",
+          "event_summary": "보이스피싱 현금 수거책으로 돈을 가로챈 혐의로 기소된 50대 남성에게",
+          "screen_text": [
+            "대구지법 제13형사부 [이름 비공개] 부장판사는"
+          ],
+          "visual_objects": [],
+          "entities": [],
+          "tactics": [
+            "NONE"
+          ],
+          "uncertainty": 0.0,
+          "observation_basis": "뉴스 보도 내용과 관련된 텍스트가 계속해서 보입니다."
+        },
+        {
+          "second": 8,
+          "event_type": "NEWS_REPORTING",
+          "event_summary": "보이스피싱 사건에 대한 보도",
+          "screen_text": [],
+          "visual_objects": [],
+          "entities": [],
+          "tactics": [
+            "NONE"
+          ],
+          "uncertainty": 0.0,
+          "observation_basis": "보이스피싱 사건에 대한 MBC NEWS의 보도"
+        },
+        {
+          "second": 10,
+          "event_type": "NEWS_REPORTING",
+          "event_summary": "보이스피싱 사건에 대한 보도",
+          "screen_text": [],
+          "visual_objects": [],
+          "entities": [],
+          "tactics": [
+            "NONE"
+          ],
+          "uncertainty": 0.0,
+          "observation_basis": "보이스피싱 사건에 대한 MBC NEWS의 보도"
+        },
+        {
+          "second": 12,
+          "event_type": "NEWS_REPORTING",
+          "event_summary": "보이스피싱 사건에 대한 보도",
+          "screen_text": [],
+          "visual_objects": [],
+          "entities": [],
+          "tactics": [
+            "NONE"
+          ],
+          "uncertainty": 0.0,
+          "observation_basis": "보이스피싱 사건에 대한 MBC NEWS의 보도"
+        },
+        {
+          "second": 14,
+          "event_type": "NEWS_REPORTING",
+          "event_summary": "보이스피싱 사건에 대한 보도",
+          "screen_text": [],
+          "visual_objects": [],
+          "entities": [],
+          "tactics": [
+            "NONE"
+          ],
+          "uncertainty": 0.0,
+          "observation_basis": "보이스피싱 사건에 대한 MBC NEWS의 보도"
+        },
+        {
+          "second": 16,
+          "event_type": "NEWS_REPORTING",
+          "event_summary": "보이스피싱 사건에 대한 보도",
+          "screen_text": [
+            "보이스피싱 수거책",
+            "50대에게 징역 2년 선고"
+          ],
+          "visual_objects": [],
+          "entities": [],
+          "tactics": [
+            "NONE"
+          ],
+          "uncertainty": 0.0,
+          "observation_basis": "보이스피싱 사건에 대한 보도"
+        },
+        {
+          "second": 18,
+          "event_type": "NEWS_REPORTING",
+          "event_summary": "보이스피싱 사건에 대한 보도",
+          "screen_text": [
+            "보이스피싱 수거책",
+            "50대에게 징역 2년 선고"
+          ],
+          "visual_objects": [],
+          "entities": [],
+          "tactics": [
+            "NONE"
+          ],
+          "uncertainty": 0.0,
+          "observation_basis": "보이스피싱 사건에 대한 보도"
+        },
+        {
+          "second": 20,
+          "event_type": "NEWS_REPORTING",
+          "event_summary": "보이스피싱 사건에 대한 보도",
+          "screen_text": [
+            "보이스피싱 수거책",
+            "50대에게 징역 2년 선고"
+          ],
+          "visual_objects": [],
+          "entities": [],
+          "tactics": [
+            "NONE"
+          ],
+          "uncertainty": 0.0,
+          "observation_basis": "보이스피싱 사건에 대한 보도"
+        },
+        {
+          "second": 22,
+          "event_type": "NEWS_REPORTING",
+          "event_summary": "보이스피싱 사건에 대한 보도",
+          "screen_text": [
+            "보이스피싱 수거책",
+            "50대에게 징역 2년 선고"
+          ],
+          "visual_objects": [],
+          "entities": [],
+          "tactics": [
+            "NONE"
+          ],
+          "uncertainty": 0.0,
+          "observation_basis": "보이스피싱 사건에 대한 보도"
+        },
+        {
+          "second": 24,
+          "event_type": "NEWS_REPORTING",
+          "event_summary": "보이스피싱 사건에 대한 보도",
+          "screen_text": [],
+          "visual_objects": [],
+          "entities": [],
+          "tactics": [
+            "NONE"
+          ],
+          "uncertainty": 0.0,
+          "observation_basis": "뉴스 보고서의 제목과 내용이 보이스피싱 사건에 대한 정보를 제공합니다."
+        },
+        {
+          "second": 26,
+          "event_type": "NEWS_REPORTING",
+          "event_summary": "보이스피싱 사건에 대한 보도",
+          "screen_text": [],
+          "visual_objects": [],
+          "entities": [],
+          "tactics": [
+            "NONE"
+          ],
+          "uncertainty": 0.0,
+          "observation_basis": "뉴스 보고서의 제목과 내용이 보이스피싱 사건에 대한 정보를 제공합니다."
+        },
+        {
+          "second": 28,
+          "event_type": "NEWS_REPORTING",
+          "event_summary": "보이스피싱 사건에 대한 보도",
+          "screen_text": [],
+          "visual_objects": [],
+          "entities": [],
+          "tactics": [
+            "NONE"
+          ],
+          "uncertainty": 0.0,
+          "observation_basis": "뉴스 보고서의 제목과 내용이 보이스피싱 사건에 대한 정보를 제공합니다."
+        },
+        {
+          "second": 30,
+          "event_type": "NEWS_REPORTING",
+          "event_summary": "보이스피싱 사건에 대한 보도",
+          "screen_text": [],
+          "visual_objects": [],
+          "entities": [],
+          "tactics": [
+            "NONE"
+          ],
+          "uncertainty": 0.0,
+          "observation_basis": "뉴스 보고서의 제목과 내용이 보이스피싱 사건에 대한 정보를 제공합니다."
+        },
+        {
+          "second": 32,
+          "event_type": "NEWS_REPORTING",
+          "event_summary": "보이스피싱 수거책",
+          "screen_text": [
+            "보이스피싱 수거책",
+            "50대에게 징역 2년 선고"
+          ],
+          "visual_objects": [],
+          "entities": [],
+          "tactics": [
+            "NONE"
+          ],
+          "uncertainty": 0.0,
+          "observation_basis": "뉴스 보도 내용과 관련된 정보가 표시되어 있습니다."
+        },
+        {
+          "second": 34,
+          "event_type": "NEWS_REPORTING",
+          "event_summary": "보이스피싱 수거책",
+          "screen_text": [
+            "보이스피싱 수거책",
+            "50대에게 징역 2년 선고"
+          ],
+          "visual_objects": [],
+          "entities": [],
+          "tactics": [
+            "NONE"
+          ],
+          "uncertainty": 0.0,
+          "observation_basis": "뉴스 보도 내용과 관련된 정보가 표시되어 있습니다."
+        },
+        {
+          "second": 36,
+          "event_type": "NEWS_REPORTING",
+          "event_summary": "보이스피싱 수거책",
+          "screen_text": [
+            "보이스피싱 수거책",
+            "50대에게 징역 2년 선고"
+          ],
+          "visual_objects": [],
+          "entities": [],
+          "tactics": [
+            "NONE"
+          ],
+          "uncertainty": 0.0,
+          "observation_basis": "뉴스 보도 내용과 관련된 정보가 표시되어 있습니다."
+        },
+        {
+          "second": 38,
+          "event_type": "NEWS_REPORTING",
+          "event_summary": "보이스피싱 수거책",
+          "screen_text": [
+            "보이스피싱 수거책",
+            "50대에게 징역 2년 선고"
+          ],
+          "visual_objects": [],
+          "entities": [],
+          "tactics": [
+            "NONE"
+          ],
+          "uncertainty": 0.0,
+          "observation_basis": "뉴스 보도 내용과 관련된 정보가 표시되어 있습니다."
+        }
+      ]
+    },
+    "normal_tM4Mo2dbLq0": {
+      "status": "ok",
+      "observations": [
+        {
+          "second": 0,
+          "event_type": "NEWS_REPORTING",
+          "event_summary": "로맨스 스캠, 보이스피싱 예방법은 무엇일까?",
+          "screen_text": [],
+          "visual_objects": [],
+          "entities": [],
+          "tactics": [
+            "NONE"
+          ],
+          "uncertainty": 0.0,
+          "observation_basis": "로맨스 스램과 보이스피싱에 대한 예방법을 설명하는 내용"
+        },
+        {
+          "second": 2,
+          "event_type": "NEWS_REPORTING",
+          "event_summary": "로맨스 스램과 보이스피싱에 대한 예방법을 설명하는 내용",
+          "screen_text": [],
+          "visual_objects": [],
+          "entities": [],
+          "tactics": [
+            "NONE"
+          ],
+          "uncertainty": 0.0,
+          "observation_basis": "로맨스 스램과 보이스피싱에 대한 예방법을 설명하는 내용"
+        },
+        {
+          "second": 4,
+          "event_type": "NEWS_REPORTING",
+          "event_summary": "로맨스 스램과 보이스피싱에 대한 예방법을 설명하는 내용",
+          "screen_text": [],
+          "visual_objects": [],
+          "entities": [],
+          "tactics": [
+            "NONE"
+          ],
+          "uncertainty": 0.0,
+          "observation_basis": "로맨스 스램과 보이스피싱에 대한 예방법을 설명하는 내용"
+        },
+        {
+          "second": 6,
+          "event_type": "NEWS_REPORTING",
+          "event_summary": "로맨스 스램과 보이스피싱에 대한 예방법을 설명하는 내용",
+          "screen_text": [],
+          "visual_objects": [],
+          "entities": [],
+          "tactics": [
+            "NONE"
+          ],
+          "uncertainty": 0.0,
+          "observation_basis": "로맨스 스램과 보이스피싱에 대한 예방법을 설명하는 내용"
+        },
+        {
+          "second": 8,
+          "event_type": "NEWS_REPORTING",
+          "event_summary": "로맨스 스캠, 보이스피싱 예방법은 무엇일까?",
+          "screen_text": [],
+          "visual_objects": [],
+          "entities": [],
+          "tactics": [
+            "SOCIAL_PROOF"
+          ],
+          "uncertainty": 0.5,
+          "observation_basis": "로맨스 스램과 보이스피싱에 대한 예방법을 설명하는 내용"
+        },
+        {
+          "second": 10,
+          "event_type": "NEWS_REPORTING",
+          "event_summary": "안 당하는 거는 이제 계속 업데이트를 하셔야 돼요",
+          "screen_text": [],
+          "visual_objects": [],
+          "entities": [],
+          "tactics": [
+            "SOCIAL_PROOF"
+          ],
+          "uncertainty": 0.5,
+          "observation_basis": "안 당하는 방법을 설명하는 내용"
+        },
+        {
+          "second": 12,
+          "event_type": "NEWS_REPORTING",
+          "event_summary": "요즘에 사기가 어떻게 일어나고 있는지",
+          "screen_text": [],
+          "visual_objects": [],
+          "entities": [],
+          "tactics": [
+            "SOCIAL_PROOF"
+          ],
+          "uncertainty": 0.5,
+          "observation_basis": "현재 사기의 발생 방식을 설명하는 내용"
+        },
+        {
+          "second": 14,
+          "event_type": "NEWS_REPORTING",
+          "event_summary": "요즘에 사기가 어떻게 일어나고 있는지",
+          "screen_text": [],
+          "visual_objects": [],
+          "entities": [],
+          "tactics": [
+            "SOCIAL_PROOF"
+          ],
+          "uncertainty": 0.5,
+          "observation_basis": "현재 사기의 발생 방식을 설명하는 내용"
+        },
+        {
+          "second": 16,
+          "event_type": "NEWS_REPORTING",
+          "event_summary": "로맨스 스캠, 보이스피싱 예방법은 무엇일까?",
+          "screen_text": [],
+          "visual_objects": [],
+          "entities": [],
+          "tactics": [
+            "SOCIAL_PROOF"
+          ],
+          "uncertainty": 0.5,
+          "observation_basis": "로맨스 스램과 보이스피싱에 대한 예방법을 설명하고 있습니다."
+        },
+        {
+          "second": 18,
+          "event_type": "NEWS_REPORTING",
+          "event_summary": "고맙습니다",
+          "screen_text": [],
+          "visual_objects": [],
+          "entities": [],
+          "tactics": [
+            "SOCIAL_PROOF"
+          ],
+          "uncertainty": 0.5,
+          "observation_basis": "고맙습니다라는 감사의 메시지를 전달합니다."
+        },
+        {
+          "second": 20,
+          "event_type": "NEWS_REPORTING",
+          "event_summary": "사기를 실제로 당하고 있다는 것을 깨닫고",
+          "screen_text": [],
+          "visual_objects": [],
+          "entities": [],
+          "tactics": [
+            "SOCIAL_PROOF"
+          ],
+          "uncertainty": 0.5,
+          "observation_basis": "사기를 당한 경험을 공유합니다."
+        },
+        {
+          "second": 22,
+          "event_type": "NEWS_REPORTING",
+          "event_summary": "사기를 실제로 당하고 있다는 것을 깨닫고",
+          "screen_text": [],
+          "visual_objects": [],
+          "entities": [],
+          "tactics": [
+            "SOCIAL_PROOF"
+          ],
+          "uncertainty": 0.5,
+          "observation_basis": "사기를 당한 경험을 공유합니다."
+        },
+        {
+          "second": 24,
+          "event_type": "EDUCATIONAL_WARNING",
+          "event_summary": "강사가 로맨스 스캠과 보이스피싱에 대해 경고합니다.",
+          "screen_text": [],
+          "visual_objects": [
+            "강사",
+            "칠판"
+          ],
+          "entities": [],
+          "tactics": [
+            "SOCIAL_PROOF"
+          ],
+          "uncertainty": 0.5,
+          "observation_basis": "강사는 로맨스 스캠과 보이스피싱에 대한 경고를 하고 있습니다."
+        },
+        {
+          "second": 26,
+          "event_type": "EDUCATIONAL_WARNING",
+          "event_summary": "강사가 더 이상의 피해를 줄이기 위해 경고합니다.",
+          "screen_text": [],
+          "visual_objects": [
+            "강사"
+          ],
+          "entities": [],
+          "tactics": [
+            "SOCIAL_PROOF"
+          ],
+          "uncertainty": 0.5,
+          "observation_basis": "강사는 더 이상의 피해를 줄이기 위해 경고합니다."
+        },
+        {
+          "second": 28,
+          "event_type": "EDUCATIONAL_WARNING",
+          "event_summary": "강사가 현재까지 나간 돈을 찾으려는 노력보다는 더 이상의 피해를 줄이기 위해 경고합니다.",
+          "screen_text": [],
+          "visual_objects": [
+            "강사"
+          ],
+          "entities": [],
+          "tactics": [
+            "SOCIAL_PROOF"
+          ],
+          "uncertainty": 0.5,
+          "observation_basis": "강사는 현재까지 나간 돈을 찾으려는 노력보다는 더 이상의 피해를 줄이기 위해 경고합니다."
+        },
+        {
+          "second": 30,
+          "event_type": "EDUCATIONAL_WARNING",
+          "event_summary": "강사가 더 이상의 피해를 줄이기 위해 경고합니다.",
+          "screen_text": [],
+          "visual_objects": [
+            "강사"
+          ],
+          "entities": [],
+          "tactics": [
+            "SOCIAL_PROOF"
+          ],
+          "uncertainty": 0.5,
+          "observation_basis": "강사는 더 이상의 피해를 줄이기 위해 경고합니다."
+        },
+        {
+          "second": 32,
+          "event_type": "EDUCATIONAL_WARNING",
+          "event_summary": "로맨스 스캠에 대해 교육",
+          "screen_text": [],
+          "visual_objects": [],
+          "entities": [],
+          "tactics": [
+            "SOCIAL_PROOF"
+          ],
+          "uncertainty": 0.5,
+          "observation_basis": "로맨스 스램에 대한 교육이 진행 중"
+        },
+        {
+          "second": 34,
+          "event_type": "EDUCATIONAL_WARNING",
+          "event_summary": "로맨스 스램 예방법",
+          "screen_text": [],
+          "visual_objects": [],
+          "entities": [],
+          "tactics": [
+            "SOCIAL_PROOF"
+          ],
+          "uncertainty": 0.5,
+          "observation_basis": "로맨스 스램 예방법이 강조됨"
+        },
+        {
+          "second": 36,
+          "event_type": "EDUCATIONAL_WARNING",
+          "event_summary": "로맨스 스램 예방법",
+          "screen_text": [],
+          "visual_objects": [],
+          "entities": [],
+          "tactics": [
+            "SOCIAL_PROOF"
+          ],
+          "uncertainty": 0.5,
+          "observation_basis": "로맨스 스램 예방법이 계속 강조됨"
+        },
+        {
+          "second": 38,
+          "event_type": "EDUCATIONAL_WARNING",
+          "event_summary": "로맨스 스램 예방법",
+          "screen_text": [],
+          "visual_objects": [],
+          "entities": [],
+          "tactics": [
+            "SOCIAL_PROOF"
+          ],
+          "uncertainty": 0.5,
+          "observation_basis": "로맨스 스램 예방법이 계속 강조됨"
+        },
+        {
+          "second": 40,
+          "event_type": "NEWS_REPORTING",
+          "event_summary": "뉴스 보도",
+          "screen_text": [],
+          "visual_objects": [],
+          "entities": [],
+          "tactics": [
+            "NONE"
+          ],
+          "uncertainty": 0.0,
+          "observation_basis": "뉴스 보도"
+        },
+        {
+          "second": 42,
+          "event_type": "NEWS_REPORTING",
+          "event_summary": "뉴스 보도",
+          "screen_text": [],
+          "visual_objects": [],
+          "entities": [],
+          "tactics": [
+            "NONE"
+          ],
+          "uncertainty": 0.0,
+          "observation_basis": "뉴스 보도"
+        },
+        {
+          "second": 44,
+          "event_type": "NEWS_REPORTING",
+          "event_summary": "뉴스 보도",
+          "screen_text": [],
+          "visual_objects": [],
+          "entities": [],
+          "tactics": [
+            "NONE"
+          ],
+          "uncertainty": 0.0,
+          "observation_basis": "뉴스 보도"
+        },
+        {
+          "second": 46,
+          "event_type": "NEWS_REPORTING",
+          "event_summary": "뉴스 보도",
+          "screen_text": [],
+          "visual_objects": [],
+          "entities": [],
+          "tactics": [
+            "NONE"
+          ],
+          "uncertainty": 0.0,
+          "observation_basis": "뉴스 보도"
+        },
+        {
+          "second": 48,
+          "event_type": "EDUCATIONAL_WARNING",
+          "event_summary": "로맨스 스캠, 보이스피싱 예방법은 무엇일까?",
+          "screen_text": [],
+          "visual_objects": [],
+          "entities": [],
+          "tactics": [
+            "SOCIAL_PROOF"
+          ],
+          "uncertainty": 0.3,
+          "observation_basis": "로맨스 스램과 보이스피싱에 대한 경고 문구가 화면에 표시되어 있습니다."
+        },
+        {
+          "second": 50,
+          "event_type": "EDUCATIONAL_WARNING",
+          "event_summary": "믿을 수 있는 사람들을 찾아가는 게 중요하고",
+          "screen_text": [],
+          "visual_objects": [],
+          "entities": [],
+          "tactics": [
+            "SOCIAL_PROOF"
+          ],
+          "uncertainty": 0.3,
+          "observation_basis": "믿을 수 있는 사람들을 찾아가는 것이 중요하다는 내용이 화면에 표시되어 있습니다."
+        },
+        {
+          "second": 52,
+          "event_type": "EDUCATIONAL_WARNING",
+          "event_summary": "세 번째로는 빛을 졌으면",
+          "screen_text": [],
+          "visual_objects": [],
+          "entities": [],
+          "tactics": [
+            "SOCIAL_PROOF"
+          ],
+          "uncertainty": 0.3,
+          "observation_basis": "세 번째로 빛을 졌다는 내용이 화면에 표시되어 있습니다."
+        },
+        {
+          "second": 54,
+          "event_type": "EDUCATIONAL_WARNING",
+          "event_summary": "이거를 복구해서 어떻게 하려고 하지 말고",
+          "screen_text": [],
+          "visual_objects": [],
+          "entities": [],
+          "tactics": [
+            "SOCIAL_PROOF"
+          ],
+          "uncertainty": 0.3,
+          "observation_basis": "이것을 복구해서 어떻게 하려고 하지 말라는 내용이 화면에 표시되어 있습니다."
+        },
+        {
+          "second": 56,
+          "event_type": "EDUCATIONAL_WARNING",
+          "event_summary": "로맨스 스캠에 대해 경고",
+          "screen_text": [],
+          "visual_objects": [],
+          "entities": [],
+          "tactics": [
+            "SOCIAL_PROOF"
+          ],
+          "uncertainty": 0.3,
+          "observation_basis": "로맨스 스램에 대한 경고 문구가 보입니다."
+        },
+        {
+          "second": 58,
+          "event_type": "EDUCATIONAL_WARNING",
+          "event_summary": "로맨스 스램에 대해 경고",
+          "screen_text": [],
+          "visual_objects": [],
+          "entities": [],
+          "tactics": [
+            "SOCIAL_PROOF"
+          ],
+          "uncertainty": 0.3,
+          "observation_basis": "로맨스 스램에 대한 경고 문구가 계속 보입니다."
+        },
+        {
+          "second": 60,
+          "event_type": "EDUCATIONAL_WARNING",
+          "event_summary": "로맨스 스램에 대해 경고",
+          "screen_text": [],
+          "visual_objects": [],
+          "entities": [],
+          "tactics": [
+            "SOCIAL_PROOF"
+          ],
+          "uncertainty": 0.3,
+          "observation_basis": "로맨스 스램에 대한 경고 문구가 계속 보입니다."
+        },
+        {
+          "second": 62,
+          "event_type": "EDUCATIONAL_WARNING",
+          "event_summary": "로맨스 스램에 대해 경고",
+          "screen_text": [],
+          "visual_objects": [],
+          "entities": [],
+          "tactics": [
+            "SOCIAL_PROOF"
+          ],
+          "uncertainty": 0.3,
+          "observation_basis": "로맨스 스램에 대한 경고 문구가 계속 보입니다."
+        },
+        {
+          "second": 64,
+          "event_type": "EDUCATIONAL_WARNING",
+          "event_summary": "로맨스 스캠에 대해 경고하는 내용",
+          "screen_text": [],
+          "visual_objects": [],
+          "entities": [],
+          "tactics": [
+            "SOCIAL_PROOF"
+          ],
+          "uncertainty": 0.2,
+          "observation_basis": "로맨스 스램에 대한 경고 문구가 화면 상단에 표시되어 있습니다."
+        },
+        {
+          "second": 66,
+          "event_type": "EDUCATIONAL_WARNING",
+          "event_summary": "로맨스 스램에 대해 경고하는 내용",
+          "screen_text": [],
+          "visual_objects": [],
+          "entities": [],
+          "tactics": [
+            "SOCIAL_PROOF"
+          ],
+          "uncertainty": 0.2,
+          "observation_basis": "로맨스 스램에 대한 경고 문구가 화면 상단에 표시되어 있습니다."
+        },
+        {
+          "second": 68,
+          "event_type": "EDUCATIONAL_WARNING",
+          "event_summary": "로맨스 스램에 대해 경고하는 내용",
+          "screen_text": [],
+          "visual_objects": [],
+          "entities": [],
+          "tactics": [
+            "SOCIAL_PROOF"
+          ],
+          "uncertainty": 0.2,
+          "observation_basis": "로맨스 스램에 대한 경고 문구가 화면 상단에 표시되어 있습니다."
+        },
+        {
+          "second": 70,
+          "event_type": "EDUCATIONAL_WARNING",
+          "event_summary": "로맨스 스램에 대해 경고하는 내용",
+          "screen_text": [],
+          "visual_objects": [],
+          "entities": [],
+          "tactics": [
+            "SOCIAL_PROOF"
+          ],
+          "uncertainty": 0.2,
+          "observation_basis": "로맨스 스램에 대한 경고 문구가 화면 상단에 표시되어 있습니다."
+        },
+        {
+          "second": 72,
+          "event_type": "EDUCATIONAL_WARNING",
+          "event_summary": "[계정 비공개]",
+          "screen_text": [],
+          "visual_objects": [],
+          "entities": [],
+          "tactics": [
+            "SOCIAL_PROOF"
+          ],
+          "uncertainty": 0.5,
+          "observation_basis": "[계정 비공개]"
+        },
+        {
+          "second": 74,
+          "event_type": "EDUCATIONAL_WARNING",
+          "event_summary": "[계정 비공개]",
+          "screen_text": [],
+          "visual_objects": [],
+          "entities": [],
+          "tactics": [
+            "SOCIAL_PROOF"
+          ],
+          "uncertainty": 0.5,
+          "observation_basis": "[계정 비공개]"
+        },
+        {
+          "second": 76,
+          "event_type": "EDUCATIONAL_WARNING",
+          "event_summary": "[계정 비공개]",
+          "screen_text": [],
+          "visual_objects": [],
+          "entities": [],
+          "tactics": [
+            "SOCIAL_PROOF"
+          ],
+          "uncertainty": 0.5,
+          "observation_basis": "[계정 비공개]"
+        },
+        {
+          "second": 78,
+          "event_type": "EDUCATIONAL_WARNING",
+          "event_summary": "[계정 비공개]",
+          "screen_text": [],
+          "visual_objects": [],
+          "entities": [],
+          "tactics": [
+            "SOCIAL_PROOF"
+          ],
+          "uncertainty": 0.5,
+          "observation_basis": "[계정 비공개]"
+        },
+        {
+          "second": 80,
+          "event_type": "EDUCATIONAL_WARNING",
+          "event_summary": "경찰 신고라든가",
+          "screen_text": [],
+          "visual_objects": [],
+          "entities": [],
+          "tactics": [
+            "NONE"
+          ],
+          "uncertainty": 0.0,
+          "observation_basis": "경찰 신고라는 경고 문구가 보입니다."
+        },
+        {
+          "second": 82,
+          "event_type": "EDUCATIONAL_WARNING",
+          "event_summary": "이런 식으로 빨리",
+          "screen_text": [],
+          "visual_objects": [],
+          "entities": [],
+          "tactics": [
+            "NONE"
+          ],
+          "uncertainty": 0.0,
+          "observation_basis": "빨리 처리해야 한다는 경고 문구가 있습니다."
+        },
+        {
+          "second": 84,
+          "event_type": "EDUCATIONAL_WARNING",
+          "event_summary": "누군가한테는 알려야 돼요",
+          "screen_text": [],
+          "visual_objects": [],
+          "entities": [],
+          "tactics": [
+            "NONE"
+          ],
+          "uncertainty": 0.0,
+          "observation_basis": "누군가에게 알려야 한다는 경고 문구가 있습니다."
+        },
+        {
+          "second": 86,
+          "event_type": "EDUCATIONAL_WARNING",
+          "event_summary": "왜냐하면 한 번 당한 사람은 이미 호구라고",
+          "screen_text": [],
+          "visual_objects": [],
+          "entities": [],
+          "tactics": [
+            "NONE"
+          ],
+          "uncertainty": 0.0,
+          "observation_basis": "당한 사람들은 이미 호구라는 경고 문구가 있습니다."
+        },
+        {
+          "second": 88,
+          "event_type": "NEWS_REPORTING",
+          "event_summary": "로맨스 스캠, 보이스피싱 예방법은 무엇일까?",
+          "screen_text": [],
+          "visual_objects": [],
+          "entities": [],
+          "tactics": [
+            "SOCIAL_PROOF"
+          ],
+          "uncertainty": 0.5,
+          "observation_basis": "로맨스 스램과 보이스피싱에 대한 예방법을 설명하는 내용"
+        },
+        {
+          "second": 90,
+          "event_type": "NEWS_REPORTING",
+          "event_summary": "전 세계에 퍼졌다고 생각하시면 돼요",
+          "screen_text": [],
+          "visual_objects": [],
+          "entities": [],
+          "tactics": [
+            "SOCIAL_PROOF"
+          ],
+          "uncertainty": 0.5,
+          "observation_basis": "전 세계에 퍼졌다는 내용"
+        },
+        {
+          "second": 92,
+          "event_type": "NEWS_REPORTING",
+          "event_summary": "애는 한 번 당한 놈이다",
+          "screen_text": [],
+          "visual_objects": [],
+          "entities": [],
+          "tactics": [
+            "SOCIAL_PROOF"
+          ],
+          "uncertainty": 0.5,
+          "observation_basis": "애는 한 번 당한 놈이라는 내용"
+        }
+      ]
+    },
+    "abnormal_NbGQtYTSu88": {
+      "status": "ok",
+      "observations": [
+        {
+          "second": 0,
+          "event_type": "NEWS_REPORTING",
+          "event_summary": "뉴스 보고",
+          "screen_text": [],
+          "visual_objects": [],
+          "entities": [],
+          "tactics": [
+            "NONE"
+          ],
+          "uncertainty": 0.0,
+          "observation_basis": "뉴스 방송 중"
+        },
+        {
+          "second": 2,
+          "event_type": "NEWS_REPORTING",
+          "event_summary": "뉴스 보고",
+          "screen_text": [
+            "해외 선물투자 사기로 207억 원 편취한 일당 검거"
+          ],
+          "visual_objects": [],
+          "entities": [],
+          "tactics": [
+            "NONE"
+          ],
+          "uncertainty": 0.0,
+          "observation_basis": "뉴스 방송 중"
+        },
+        {
+          "second": 4,
+          "event_type": "NEWS_REPORTING",
+          "event_summary": "뉴스 보고",
+          "screen_text": [
+            "해외 선물투자 사기로 207억 원 편취한 일당 검거"
+          ],
+          "visual_objects": [],
+          "entities": [],
+          "tactics": [
+            "NONE"
+          ],
+          "uncertainty": 0.0,
+          "observation_basis": "뉴스 방송 중"
+        },
+        {
+          "second": 6,
+          "event_type": "NEWS_REPORTING",
+          "event_summary": "뉴스 보고",
+          "screen_text": [
+            "해외 선물투자 사기로 207억 원 편취한 일당 검거"
+          ],
+          "visual_objects": [],
+          "entities": [],
+          "tactics": [
+            "NONE"
+          ],
+          "uncertainty": 0.0,
+          "observation_basis": "뉴스 방송 중"
+        },
+        {
+          "second": 8,
+          "event_type": "NEWS_REPORTING",
+          "event_summary": "해외 선물투자 사기로 207억 원 편취한 일당 검거",
+          "screen_text": [],
+          "visual_objects": [],
+          "entities": [],
+          "tactics": [
+            "NONE"
+          ],
+          "uncertainty": 0.0,
+          "observation_basis": "해외 선물투자 사기로 207억 원 편취한 일당 검거"
+        },
+        {
+          "second": 10,
+          "event_type": "NEWS_REPORTING",
+          "event_summary": "해외 선물투자 사기로 207억 원 편취한 일당 검거",
+          "screen_text": [],
+          "visual_objects": [],
+          "entities": [],
+          "tactics": [
+            "NONE"
+          ],
+          "uncertainty": 0.0,
+          "observation_basis": "해외 선물투자 사기로 207억 원 편취한 일당 검거"
+        },
+        {
+          "second": 12,
+          "event_type": "NEWS_REPORTING",
+          "event_summary": "해외 선물투자 사기로 207억 원 편취한 일당 검거",
+          "screen_text": [],
+          "visual_objects": [],
+          "entities": [],
+          "tactics": [
+            "NONE"
+          ],
+          "uncertainty": 0.0,
+          "observation_basis": "해외 선물투자 사기로 207억 원 편취한 일당 검거"
+        },
+        {
+          "second": 14,
+          "event_type": "NEWS_REPORTING",
+          "event_summary": "해외 선물투자 사기로 207억 원 편취한 일당 검거",
+          "screen_text": [],
+          "visual_objects": [],
+          "entities": [],
+          "tactics": [
+            "NONE"
+          ],
+          "uncertainty": 0.0,
+          "observation_basis": "해외 선물투자 사기로 207억 원 편취한 일당 검거"
+        },
+        {
+          "second": 16,
+          "event_type": "NEWS_REPORTING",
+          "event_summary": "해외 선물투자 사기로 207억 원 편취한 일당 검거",
+          "screen_text": [],
+          "visual_objects": [],
+          "entities": [],
+          "tactics": [
+            "NONE"
+          ],
+          "uncertainty": 0.0,
+          "observation_basis": "해외 선물투자 사기로 207억 원 편취한 일당 검거"
+        },
+        {
+          "second": 18,
+          "event_type": "NEWS_REPORTING",
+          "event_summary": "해외 선물투자 사기로 207억 원 편취한 일당 검거",
+          "screen_text": [],
+          "visual_objects": [],
+          "entities": [],
+          "tactics": [
+            "NONE"
+          ],
+          "uncertainty": 0.0,
+          "observation_basis": "해외 선물투자 사기로 207억 원 편취한 일당 검거"
+        },
+        {
+          "second": 20,
+          "event_type": "NEWS_REPORTING",
+          "event_summary": "해외 선물투자 사기로 207억 원 편취한 일당 검거",
+          "screen_text": [],
+          "visual_objects": [],
+          "entities": [],
+          "tactics": [
+            "NONE"
+          ],
+          "uncertainty": 0.0,
+          "observation_basis": "해외 선물투자 사기로 207억 원 편취한 일당 검거"
+        },
+        {
+          "second": 22,
+          "event_type": "NEWS_REPORTING",
+          "event_summary": "해외 선물투자 사기로 207억 원 편취한 일당 검거",
+          "screen_text": [],
+          "visual_objects": [],
+          "entities": [],
+          "tactics": [
+            "NONE"
+          ],
+          "uncertainty": 0.0,
+          "observation_basis": "해외 선물투자 사기로 207억 원 편취한 일당 검거"
+        },
+        {
+          "second": 24,
+          "event_type": "NEWS_REPORTING",
+          "event_summary": "해외 선물투자 사기로 207억 원 편취한 일당 검거",
+          "screen_text": [],
+          "visual_objects": [],
+          "entities": [],
+          "tactics": [
+            "NONE"
+          ],
+          "uncertainty": 0.0,
+          "observation_basis": "해외 선물투자 사기로 207억 원 편취한 일당 검거"
+        },
+        {
+          "second": 26,
+          "event_type": "NEWS_REPORTING",
+          "event_summary": "해외 선물투자 사기로 207억 원 편취한 일당 검거",
+          "screen_text": [],
+          "visual_objects": [],
+          "entities": [],
+          "tactics": [
+            "NONE"
+          ],
+          "uncertainty": 0.0,
+          "observation_basis": "해외 선물투자 사기로 207억 원 편취한 일당 검거"
+        },
+        {
+          "second": 28,
+          "event_type": "NEWS_REPORTING",
+          "event_summary": "해외 선물투자 사기로 207억 원 편취한 일당 검거",
+          "screen_text": [],
+          "visual_objects": [],
+          "entities": [],
+          "tactics": [
+            "NONE"
+          ],
+          "uncertainty": 0.0,
+          "observation_basis": "해외 선물투자 사기로 207억 원 편취한 일당 검거"
+        },
+        {
+          "second": 30,
+          "event_type": "NEWS_REPORTING",
+          "event_summary": "해외 선물투자 사기로 207억 원 편취한 일당 검거",
+          "screen_text": [],
+          "visual_objects": [],
+          "entities": [],
+          "tactics": [
+            "NONE"
+          ],
+          "uncertainty": 0.0,
+          "observation_basis": "해외 선물투자 사기로 207억 원 편취한 일당 검거"
+        },
+        {
+          "second": 32,
+          "event_type": "NEWS_REPORTING",
+          "event_summary": "해외 선물투자 사기로 207억 원 편취한 일당 검거",
+          "screen_text": [],
+          "visual_objects": [],
+          "entities": [],
+          "tactics": [
+            "NONE"
+          ],
+          "uncertainty": 0.0,
+          "observation_basis": "해외 선물투자 사기로 207억 원 편취한 일당 검거"
+        },
+        {
+          "second": 34,
+          "event_type": "NEWS_REPORTING",
+          "event_summary": "해외 선물투자 사기로 207억 원 편취한 일당 검거",
+          "screen_text": [],
+          "visual_objects": [],
+          "entities": [],
+          "tactics": [
+            "NONE"
+          ],
+          "uncertainty": 0.0,
+          "observation_basis": "해외 선물투자 사기로 207억 원 편취한 일당 검거"
+        },
+        {
+          "second": 36,
+          "event_type": "NEWS_REPORTING",
+          "event_summary": "해외 선물투자 사기로 207억 원 편취한 일당 검거",
+          "screen_text": [],
+          "visual_objects": [],
+          "entities": [],
+          "tactics": [
+            "NONE"
+          ],
+          "uncertainty": 0.0,
+          "observation_basis": "해외 선물투자 사기로 207억 원 편취한 일당 검거"
+        },
+        {
+          "second": 38,
+          "event_type": "NEWS_REPORTING",
+          "event_summary": "해외 선물투자 사기로 207억 원 편취한 일당 검거",
+          "screen_text": [],
+          "visual_objects": [],
+          "entities": [],
+          "tactics": [
+            "NONE"
+          ],
+          "uncertainty": 0.0,
+          "observation_basis": "해외 선물투자 사기로 207억 원 편취한 일당 검거"
+        },
+        {
+          "second": 40,
+          "event_type": "NEWS_REPORTING",
+          "event_summary": "해외 선물투자 사기로 207억 원 편취한 일당 검거",
+          "screen_text": [],
+          "visual_objects": [
+            "旗帜"
+          ],
+          "entities": [
+            {
+              "name": "旗帜",
+              "type": "OTHER"
+            }
+          ],
+          "tactics": [
+            "NONE"
+          ],
+          "uncertainty": 0.0,
+          "observation_basis": "해외 선물투자 사기로 207억 원 편취한 일당 검거"
+        }
+      ]
+    },
+    "abnormal_3MB8i7I-aJI": {
+      "status": "ok",
+      "observations": [
+        {
+          "second": 0,
+          "event_type": "DISPLAY_TRANSACTION",
+          "event_summary": "전화번호가 공개됩니다",
+          "screen_text": [
+            "보이스피싱",
+            "실제 통화 내용",
+            "[연락처 비공개]",
+            "보이스피싱범 전화번호"
+          ],
+          "visual_objects": [],
+          "entities": [
+            {
+              "name": "전화번호",
+              "type": "CONTACT"
+            }
+          ],
+          "tactics": [
+            "NONE"
+          ],
+          "uncertainty": 0.0,
+          "observation_basis": "전화번호가 화면에 표시됩니다."
+        },
+        {
+          "second": 2,
+          "event_type": "DISPLAY_TRANSACTION",
+          "event_summary": "시간이 경과합니다",
+          "screen_text": [
+            "Full 영상은",
+            "YouTube에서",
+            "55분후"
+          ],
+          "visual_objects": [],
+          "entities": [],
+          "tactics": [
+            "NONE"
+          ],
+          "uncertainty": 0.0,
+          "observation_basis": "시간이 55분 후로 표시됩니다."
+        },
+        {
+          "second": 4,
+          "event_type": "DISPLAY_TRANSACTION",
+          "event_summary": "전화번호가 변경됩니다",
+          "screen_text": [
+            "Full 영상은",
+            "YouTube에서",
+            "보이스피싱",
+            "실제 통화 내용",
+            "[연락처 비공개]",
+            "보이스피싱범 전화번호"
+          ],
+          "visual_objects": [],
+          "entities": [
+            {
+              "name": "전화번호",
+              "type": "CONTACT"
+            }
+          ],
+          "tactics": [
+            "NONE"
+          ],
+          "uncertainty": 0.0,
+          "observation_basis": "전화번호가 다시 표시됩니다."
+        },
+        {
+          "second": 6,
+          "event_type": "DISPLAY_TRANSACTION",
+          "event_summary": "전화번호가 변경됩니다",
+          "screen_text": [
+            "Full 영상은",
+            "YouTube에서",
+            "보이스피싱",
+            "실제 통화 내용",
+            "[연락처 비공개]",
+            "보이스피싱범 전화번호"
+          ],
+          "visual_objects": [],
+          "entities": [
+            {
+              "name": "전화번호",
+              "type": "CONTACT"
+            }
+          ],
+          "tactics": [
+            "NONE"
+          ],
+          "uncertainty": 0.0,
+          "observation_basis": "전화번호가 다시 표시됩니다."
+        },
+        {
+          "second": 8,
+          "event_type": "DISPLAY_TRANSACTION",
+          "event_summary": "전화번호가 공개됩니다",
+          "screen_text": [
+            "보이스피싱",
+            "실제 통화 내용",
+            "[연락처 비공개]",
+            "보이스피싱범 전화번호"
+          ],
+          "visual_objects": [],
+          "entities": [],
+          "tactics": [
+            "SOCIAL_PROOF"
+          ],
+          "uncertainty": 0.0,
+          "observation_basis": "전화번호가 공개됩니다"
+        },
+        {
+          "second": 10,
+          "event_type": "DISPLAY_TRANSACTION",
+          "event_summary": "전화번호가 계속 공개됩니다",
+          "screen_text": [
+            "보이스피싱",
+            "실제 통화 내용",
+            "[연락처 비공개]",
+            "보이스피싱범 전화번호"
+          ],
+          "visual_objects": [],
+          "entities": [],
+          "tactics": [
+            "SOCIAL_PROOF"
+          ],
+          "uncertainty": 0.0,
+          "observation_basis": "전화번호가 계속 공개됩니다"
+        },
+        {
+          "second": 12,
+          "event_type": "DISPLAY_TRANSACTION",
+          "event_summary": "전화번호가 계속 공개됩니다",
+          "screen_text": [
+            "보이스피싱",
+            "실제 통화 내용",
+            "[연락처 비공개]",
+            "보이스피싱범 전화번호"
+          ],
+          "visual_objects": [],
+          "entities": [],
+          "tactics": [
+            "SOCIAL_PROOF"
+          ],
+          "uncertainty": 0.0,
+          "observation_basis": "전화번호가 계속 공개됩니다"
+        },
+        {
+          "second": 14,
+          "event_type": "DISPLAY_TRANSACTION",
+          "event_summary": "전화번호가 계속 공개됩니다",
+          "screen_text": [
+            "보이스피싱",
+            "실제 통화 내용",
+            "[연락처 비공개]",
+            "보이스피싱범 전화번호"
+          ],
+          "visual_objects": [],
+          "entities": [],
+          "tactics": [
+            "SOCIAL_PROOF"
+          ],
+          "uncertainty": 0.0,
+          "observation_basis": "전화번호가 계속 공개됩니다"
+        }
+      ]
+    },
+    "abnormal_t4uiR-C6d_M": {
+      "status": "ok",
+      "observations": [
+        {
+          "second": 0,
+          "event_type": "NEWS_REPORTING",
+          "event_summary": "보이스피싱 관련 정보 제공",
+          "screen_text": [],
+          "visual_objects": [],
+          "entities": [],
+          "tactics": [
+            "SOCIAL_PROOF"
+          ],
+          "uncertainty": 0.5,
+          "observation_basis": "보이스피싱 관련 정보가 화면에 표시되어 있습니다."
+        },
+        {
+          "second": 2,
+          "event_type": "NEWS_REPORTING",
+          "event_summary": "보이스피싱 관련 정보 제공",
+          "screen_text": [],
+          "visual_objects": [],
+          "entities": [],
+          "tactics": [
+            "SOCIAL_PROOF"
+          ],
+          "uncertainty": 0.5,
+          "observation_basis": "보이스피싱 관련 정보가 화면에 표시되어 있습니다."
+        },
+        {
+          "second": 4,
+          "event_type": "NEWS_REPORTING",
+          "event_summary": "보이스피싱 관련 정보 제공",
+          "screen_text": [],
+          "visual_objects": [],
+          "entities": [],
+          "tactics": [
+            "SOCIAL_PROOF"
+          ],
+          "uncertainty": 0.5,
+          "observation_basis": "보이스피싱 관련 정보가 화면에 표시되어 있습니다."
+        },
+        {
+          "second": 6,
+          "event_type": "NEWS_REPORTING",
+          "event_summary": "보이스피싱 관련 정보 제공",
+          "screen_text": [],
+          "visual_objects": [],
+          "entities": [],
+          "tactics": [
+            "SOCIAL_PROOF"
+          ],
+          "uncertainty": 0.5,
+          "observation_basis": "보이스피싱 관련 정보가 화면에 표시되어 있습니다."
+        },
+        {
+          "second": 8,
+          "event_type": "NEWS_REPORTING",
+          "event_summary": "보이스피싱 관련 정보 제공",
+          "screen_text": [
+            "Full 영상은 YouTube에서",
+            "보이스피싱",
+            "실제 통화 내용",
+            "[연락처 비공개]",
+            "보이스피싱범 전화번호",
+            "구독과 좋아요",
+            "알림 설정까지"
+          ],
+          "visual_objects": [],
+          "entities": [],
+          "tactics": [
+            "NONE"
+          ],
+          "uncertainty": 0.0,
+          "observation_basis": "보이스피싱 관련 정보가 화면에 표시되어 있습니다."
+        },
+        {
+          "second": 10,
+          "event_type": "NEWS_REPORTING",
+          "event_summary": "보이스피싱 관련 정보 제공",
+          "screen_text": [
+            "Full 영상은 YouTube에서",
+            "보이스피싱",
+            "실제 통화 내용",
+            "[연락처 비공개]",
+            "보이스피싱범 전화번호",
+            "구독과 좋아요",
+            "알림 설정까지"
+          ],
+          "visual_objects": [],
+          "entities": [],
+          "tactics": [
+            "NONE"
+          ],
+          "uncertainty": 0.0,
+          "observation_basis": "보이스피싱 관련 정보가 화면에 표시되어 있습니다."
+        },
+        {
+          "second": 12,
+          "event_type": "NEWS_REPORTING",
+          "event_summary": "보이스피싱 관련 정보 제공",
+          "screen_text": [
+            "Full 영상은 YouTube에서",
+            "보이스피싱",
+            "실제 통화 내용",
+            "[연락처 비공개]",
+            "보이스피싱범 전화번호",
+            "구독과 좋아요",
+            "알림 설정까지"
+          ],
+          "visual_objects": [],
+          "entities": [],
+          "tactics": [
+            "NONE"
+          ],
+          "uncertainty": 0.0,
+          "observation_basis": "보이스피싱 관련 정보가 화면에 표시되어 있습니다."
+        },
+        {
+          "second": 14,
+          "event_type": "NEWS_REPORTING",
+          "event_summary": "보이스피싱 관련 정보 제공",
+          "screen_text": [
+            "Full 영상은 YouTube에서",
+            "보이스피싱",
+            "실제 통화 내용",
+            "[연락처 비공개]",
+            "보이스피싱범 전화번호",
+            "구독과 좋아요",
+            "알림 설정까지"
+          ],
+          "visual_objects": [],
+          "entities": [],
+          "tactics": [
+            "NONE"
+          ],
+          "uncertainty": 0.0,
+          "observation_basis": "보이스피싱 관련 정보가 화면에 표시되어 있습니다."
+        }
+      ]
+    },
+    "abnormal_Gh9lKEY8rSM": {
+      "status": "ok",
+      "observations": [
+        {
+          "second": 0,
+          "event_type": "NEWS_REPORTING",
+          "event_summary": "뉴스 방송 중",
+          "screen_text": [],
+          "visual_objects": [],
+          "entities": [],
+          "tactics": [
+            "NONE"
+          ],
+          "uncertainty": 0.0,
+          "observation_basis": "뉴스 방송 화면에 두 명의 진행자가 보입니다."
+        },
+        {
+          "second": 2,
+          "event_type": "NEWS_REPORTING",
+          "event_summary": "뉴스 방송 중",
+          "screen_text": [],
+          "visual_objects": [],
+          "entities": [],
+          "tactics": [
+            "NONE"
+          ],
+          "uncertainty": 0.0,
+          "observation_basis": "뉴스 방송 화면에 두 명의 진행자가 계속 보입니다."
+        },
+        {
+          "second": 4,
+          "event_type": "NEWS_REPORTING",
+          "event_summary": "뉴스 방송 중",
+          "screen_text": [],
+          "visual_objects": [],
+          "entities": [],
+          "tactics": [
+            "NONE"
+          ],
+          "uncertainty": 0.0,
+          "observation_basis": "뉴스 방송 화면에 두 명의 진행자가 계속 보입니다."
+        },
+        {
+          "second": 6,
+          "event_type": "NEWS_REPORTING",
+          "event_summary": "뉴스 방송 중",
+          "screen_text": [],
+          "visual_objects": [],
+          "entities": [],
+          "tactics": [
+            "NONE"
+          ],
+          "uncertainty": 0.0,
+          "observation_basis": "뉴스 방송 화면에 두 명의 진행자가 계속 보입니다."
+        },
+        {
+          "second": 8,
+          "event_type": "NEWS_REPORTING",
+          "event_summary": "법무부에 대한 뉴스 보고",
+          "screen_text": [],
+          "visual_objects": [],
+          "entities": [],
+          "tactics": [
+            "NONE"
+          ],
+          "uncertainty": 0.0,
+          "observation_basis": "뉴스 제목과 관련된 정보가 화면 하단에 표시되어 있습니다."
+        },
+        {
+          "second": 10,
+          "event_type": "NEWS_REPORTING",
+          "event_summary": "법무부에 대한 뉴스 보고",
+          "screen_text": [],
+          "visual_objects": [],
+          "entities": [],
+          "tactics": [
+            "NONE"
+          ],
+          "uncertainty": 0.0,
+          "observation_basis": "뉴스 제목과 관련된 정보가 화면 하단에 표시되어 있습니다."
+        },
+        {
+          "second": 12,
+          "event_type": "NEWS_REPORTING",
+          "event_summary": "법무부에 대한 뉴스 보고",
+          "screen_text": [],
+          "visual_objects": [],
+          "entities": [],
+          "tactics": [
+            "NONE"
+          ],
+          "uncertainty": 0.0,
+          "observation_basis": "뉴스 제목과 관련된 정보가 화면 하단에 표시되어 있습니다."
+        },
+        {
+          "second": 14,
+          "event_type": "NEWS_REPORTING",
+          "event_summary": "법무부에 대한 뉴스 보고",
+          "screen_text": [],
+          "visual_objects": [],
+          "entities": [],
+          "tactics": [
+            "NONE"
+          ],
+          "uncertainty": 0.0,
+          "observation_basis": "뉴스 제목과 관련된 정보가 화면 하단에 표시되어 있습니다."
+        },
+        {
+          "second": 16,
+          "event_type": "NEWS_REPORTING",
+          "event_summary": "법무부는 120억대 로맨스스캠 사기 부부 송환 요청",
+          "screen_text": [],
+          "visual_objects": [],
+          "entities": [],
+          "tactics": [
+            "SOCIAL_PROOF"
+          ],
+          "uncertainty": 0.0,
+          "observation_basis": "뉴스 보도 내용과 함께 법무부의 로맨스스캠 관련 사기 부부 송환 요청이 공개됨"
+        },
+        {
+          "second": 18,
+          "event_type": "NEWS_REPORTING",
+          "event_summary": "법무부는 120억대 로맨스스캠 사기 부부 송환 요청",
+          "screen_text": [],
+          "visual_objects": [],
+          "entities": [],
+          "tactics": [
+            "SOCIAL_PROOF"
+          ],
+          "uncertainty": 0.0,
+          "observation_basis": "뉴스 보도 내용과 함께 법무부의 로맨스스캠 관련 사기 부부 송환 요청이 공개됨"
+        },
+        {
+          "second": 20,
+          "event_type": "NEWS_REPORTING",
+          "event_summary": "법무부는 120억대 로맨스스캠 사기 부부 송환 요청",
+          "screen_text": [],
+          "visual_objects": [],
+          "entities": [],
+          "tactics": [
+            "SOCIAL_PROOF"
+          ],
+          "uncertainty": 0.0,
+          "observation_basis": "뉴스 보도 내용과 함께 법무부의 로맨스스캠 관련 사기 부부 송환 요청이 공개됨"
+        },
+        {
+          "second": 22,
+          "event_type": "NEWS_REPORTING",
+          "event_summary": "법무부는 120억대 로맨스스캠 사기 부부 송환 요청",
+          "screen_text": [],
+          "visual_objects": [],
+          "entities": [],
+          "tactics": [
+            "SOCIAL_PROOF"
+          ],
+          "uncertainty": 0.0,
+          "observation_basis": "뉴스 보도 내용과 함께 법무부의 로맨스스캠 관련 사기 부부 송환 요청이 공개됨"
+        },
+        {
+          "second": 24,
+          "event_type": "NEWS_REPORTING",
+          "event_summary": "캄보디아 사태 파장 계속",
+          "screen_text": [],
+          "visual_objects": [],
+          "entities": [],
+          "tactics": [
+            "NONE"
+          ],
+          "uncertainty": 0.0,
+          "observation_basis": "뉴스 보도 내용"
+        },
+        {
+          "second": 26,
+          "event_type": "NEWS_REPORTING",
+          "event_summary": "한국인 가담자 약 2천명 추산",
+          "screen_text": [],
+          "visual_objects": [],
+          "entities": [],
+          "tactics": [
+            "NONE"
+          ],
+          "uncertainty": 0.0,
+          "observation_basis": "뉴스 보도 내용"
+        },
+        {
+          "second": 28,
+          "event_type": "NEWS_REPORTING",
+          "event_summary": "친구가 5천만 투자 취소됐다",
+          "screen_text": [],
+          "visual_objects": [],
+          "entities": [],
+          "tactics": [
+            "NONE"
+          ],
+          "uncertainty": 0.0,
+          "observation_basis": "뉴스 보도 내용"
+        },
+        {
+          "second": 30,
+          "event_type": "NEWS_REPORTING",
+          "event_summary": "친구가 5천만 투자 취소됐다",
+          "screen_text": [],
+          "visual_objects": [],
+          "entities": [],
+          "tactics": [
+            "NONE"
+          ],
+          "uncertainty": 0.0,
+          "observation_basis": "뉴스 보도 내용"
+        },
+        {
+          "second": 32,
+          "event_type": "NEWS_REPORTING",
+          "event_summary": "뉴스 보도",
+          "screen_text": [],
+          "visual_objects": [],
+          "entities": [],
+          "tactics": [
+            "NONE"
+          ],
+          "uncertainty": 0.0,
+          "observation_basis": "뉴스 제목과 관련된 정보가 화면 하단에 표시되어 있습니다."
+        },
+        {
+          "second": 34,
+          "event_type": "NEWS_REPORTING",
+          "event_summary": "뉴스 보도",
+          "screen_text": [],
+          "visual_objects": [],
+          "entities": [],
+          "tactics": [
+            "NONE"
+          ],
+          "uncertainty": 0.0,
+          "observation_basis": "뉴스 제목과 관련된 정보가 화면 하단에 표시되어 있습니다."
+        },
+        {
+          "second": 36,
+          "event_type": "NEWS_REPORTING",
+          "event_summary": "뉴스 보도",
+          "screen_text": [],
+          "visual_objects": [],
+          "entities": [],
+          "tactics": [
+            "NONE"
+          ],
+          "uncertainty": 0.0,
+          "observation_basis": "뉴스 제목과 관련된 정보가 화면 하단에 표시되어 있습니다."
+        },
+        {
+          "second": 38,
+          "event_type": "NEWS_REPORTING",
+          "event_summary": "뉴스 보도",
+          "screen_text": [],
+          "visual_objects": [],
+          "entities": [],
+          "tactics": [
+            "NONE"
+          ],
+          "uncertainty": 0.0,
+          "observation_basis": "뉴스 제목과 관련된 정보가 화면 하단에 표시되어 있습니다."
+        },
+        {
+          "second": 40,
+          "event_type": "NEWS_REPORTING",
+          "event_summary": "뉴스 보도",
+          "screen_text": [],
+          "visual_objects": [],
+          "entities": [],
+          "tactics": [
+            "NONE"
+          ],
+          "uncertainty": 0.0,
+          "observation_basis": "뉴스 보도"
+        },
+        {
+          "second": 42,
+          "event_type": "NEWS_REPORTING",
+          "event_summary": "뉴스 보도",
+          "screen_text": [],
+          "visual_objects": [],
+          "entities": [],
+          "tactics": [
+            "NONE"
+          ],
+          "uncertainty": 0.0,
+          "observation_basis": "뉴스 보도"
+        },
+        {
+          "second": 44,
+          "event_type": "NEWS_REPORTING",
+          "event_summary": "뉴스 보도",
+          "screen_text": [],
+          "visual_objects": [],
+          "entities": [],
+          "tactics": [
+            "NONE"
+          ],
+          "uncertainty": 0.0,
+          "observation_basis": "뉴스 보도"
+        },
+        {
+          "second": 46,
+          "event_type": "NEWS_REPORTING",
+          "event_summary": "뉴스 보도",
+          "screen_text": [],
+          "visual_objects": [],
+          "entities": [],
+          "tactics": [
+            "NONE"
+          ],
+          "uncertainty": 0.0,
+          "observation_basis": "뉴스 보도"
+        },
+        {
+          "second": 48,
+          "event_type": "NEWS_REPORTING",
+          "event_summary": "캄보디아 사태 파장 계속",
+          "screen_text": [],
+          "visual_objects": [],
+          "entities": [],
+          "tactics": [
+            "NONE"
+          ],
+          "uncertainty": 0.0,
+          "observation_basis": "캄보디아 사태 파장 계속"
+        }
+      ]
+    },
+    "normal_ROIjhO4jQ_k": {
+      "status": "ok",
+      "observations": [
+        {
+          "second": 0,
+          "event_type": "PERSONAL_TESTIMONY",
+          "event_summary": "변호사가 보이스피싱에 대해 개인적으로 경험을 공유합니다.",
+          "screen_text": [
+            "보이스피싱 역할별 적정 합의금은 얼마?",
+            "변호사 직통 상담 [연락처 비공개]"
+          ],
+          "visual_objects": [],
+          "entities": [
+            {
+              "name": "변호사",
+              "type": "PERSON"
+            }
+          ],
+          "tactics": [
+            "NONE"
+          ],
+          "uncertainty": 0.0,
+          "observation_basis": "변호사가 보이스피싱에 대해 개인적으로 경험을 공유합니다."
+        },
+        {
+          "second": 2,
+          "event_type": "PERSONAL_TESTIMONY",
+          "event_summary": "변호사가 보이스피싱에 대해 개인적으로 경험을 공유합니다.",
+          "screen_text": [
+            "보이스피싱 역할별 적정 합의금은 얼마?",
+            "변호사 직통 상담 [연락처 비공개]"
+          ],
+          "visual_objects": [],
+          "entities": [
+            {
+              "name": "변호사",
+              "type": "PERSON"
+            }
+          ],
+          "tactics": [
+            "NONE"
+          ],
+          "uncertainty": 0.0,
+          "observation_basis": "변호사가 보이스피싱에 대해 개인적으로 경험을 공유합니다."
+        },
+        {
+          "second": 4,
+          "event_type": "PERSONAL_TESTIMONY",
+          "event_summary": "변호사가 보이스피싱에 대해 개인적으로 경험을 공유합니다.",
+          "screen_text": [
+            "보이스피싱 역할별 적정 합의금은 얼마?",
+            "변호사 직통 상담 [연락처 비공개]"
+          ],
+          "visual_objects": [],
+          "entities": [
+            {
+              "name": "변호사",
+              "type": "PERSON"
+            }
+          ],
+          "tactics": [
+            "NONE"
+          ],
+          "uncertainty": 0.0,
+          "observation_basis": "변호사가 보이스피싱에 대해 개인적으로 경험을 공유합니다."
+        },
+        {
+          "second": 6,
+          "event_type": "PERSONAL_TESTIMONY",
+          "event_summary": "변호사가 보이스피싱에 대해 개인적으로 경험을 공유합니다.",
+          "screen_text": [
+            "보이스피싱 역할별 적정 합의금은 얼마?",
+            "변호사 직통 상담 [연락처 비공개]"
+          ],
+          "visual_objects": [],
+          "entities": [
+            {
+              "name": "변호사",
+              "type": "PERSON"
+            }
+          ],
+          "tactics": [
+            "NONE"
+          ],
+          "uncertainty": 0.0,
+          "observation_basis": "변호사가 보이스피싱에 대해 개인적으로 경험을 공유합니다."
+        },
+        {
+          "second": 8,
+          "event_type": "DISPLAY_TRANSACTION",
+          "event_summary": "보이스피싱 역할별 적정 합의금은 얼마?",
+          "screen_text": [],
+          "visual_objects": [],
+          "entities": [],
+          "tactics": [
+            "SOCIAL_PROOF"
+          ],
+          "uncertainty": 0.3,
+          "observation_basis": "보이스피싱 역할별 적정 합의금을 제시하는 내용"
+        },
+        {
+          "second": 10,
+          "event_type": "DISPLAY_TRANSACTION",
+          "event_summary": "변호사 직통 상담 [연락처 비공개]",
+          "screen_text": [],
+          "visual_objects": [],
+          "entities": [],
+          "tactics": [
+            "SOCIAL_PROOF"
+          ],
+          "uncertainty": 0.3,
+          "observation_basis": "변호사 직통 상담 번호를 제시하는 내용"
+        },
+        {
+          "second": 12,
+          "event_type": "DISPLAY_TRANSACTION",
+          "event_summary": "보통 20 프로",
+          "screen_text": [],
+          "visual_objects": [],
+          "entities": [],
+          "tactics": [
+            "SOCIAL_PROOF"
+          ],
+          "uncertainty": 0.3,
+          "observation_basis": "보통 20%라는 비율을 제시하는 내용"
+        },
+        {
+          "second": 14,
+          "event_type": "DISPLAY_TRANSACTION",
+          "event_summary": "(보이스피싱)상담원 같은 경우는",
+          "screen_text": [],
+          "visual_objects": [],
+          "entities": [],
+          "tactics": [
+            "SOCIAL_PROOF"
+          ],
+          "uncertainty": 0.3,
+          "observation_basis": "(보이스피싱)상담원 같은 경우는 보이스피싱 상담원의 역할을 설명하는 내용"
+        },
+        {
+          "second": 16,
+          "event_type": "DISPLAY_TRANSACTION",
+          "event_summary": "보이스피싱 역할별 적정 합의금은 얼마?",
+          "screen_text": [
+            "보이스피싱 역할별 적정 합의금은 얼마?",
+            "변호사 직통 상담 [연락처 비공개]"
+          ],
+          "visual_objects": [],
+          "entities": [],
+          "tactics": [
+            "NONE"
+          ],
+          "uncertainty": 0.0,
+          "observation_basis": "보이스피싱 역할별 적정 합의금을 제시하는 내용"
+        },
+        {
+          "second": 18,
+          "event_type": "DISPLAY_TRANSACTION",
+          "event_summary": "변호사 직통 상담 [연락처 비공개]",
+          "screen_text": [
+            "변호사 직통 상담 [연락처 비공개]"
+          ],
+          "visual_objects": [],
+          "entities": [],
+          "tactics": [
+            "NONE"
+          ],
+          "uncertainty": 0.0,
+          "observation_basis": "변호사 직통 상담 번호를 표시하는 내용"
+        },
+        {
+          "second": 20,
+          "event_type": "DISPLAY_TRANSACTION",
+          "event_summary": "총 피해금액이 얼마 정도 되느냐에",
+          "screen_text": [
+            "총 피해금액이 얼마 정도 되느냐에"
+          ],
+          "visual_objects": [],
+          "entities": [],
+          "tactics": [
+            "NONE"
+          ],
+          "uncertainty": 0.0,
+          "observation_basis": "총 피해금액에 대한 설명"
+        },
+        {
+          "second": 22,
+          "event_type": "DISPLAY_TRANSACTION",
+          "event_summary": "예를 들어서 피해자가 10명이고",
+          "screen_text": [
+            "예를 들어서 피해자가 10명이고"
+          ],
+          "visual_objects": [],
+          "entities": [],
+          "tactics": [
+            "NONE"
+          ],
+          "uncertainty": 0.0,
+          "observation_basis": "예를 들어 피해자가 10명이라는 설명"
+        },
+        {
+          "second": 24,
+          "event_type": "DISPLAY_TRANSACTION",
+          "event_summary": "피해 금액이 1억",
+          "screen_text": [],
+          "visual_objects": [],
+          "entities": [],
+          "tactics": [
+            "NONE"
+          ],
+          "uncertainty": 0.0,
+          "observation_basis": "피해 금액이 1억"
+        },
+        {
+          "second": 26,
+          "event_type": "DISPLAY_TRANSACTION",
+          "event_summary": "30 프로 한 3000만 원 2000만 원",
+          "screen_text": [],
+          "visual_objects": [],
+          "entities": [],
+          "tactics": [
+            "NONE"
+          ],
+          "uncertainty": 0.0,
+          "observation_basis": "30 프로 한 3000만 원 2000만 원"
+        },
+        {
+          "second": 28,
+          "event_type": "DISPLAY_TRANSACTION",
+          "event_summary": "정도를 말씀을 드리고요",
+          "screen_text": [],
+          "visual_objects": [],
+          "entities": [],
+          "tactics": [
+            "NONE"
+          ],
+          "uncertainty": 0.0,
+          "observation_basis": "정도를 말씀을 드리고요"
+        },
+        {
+          "second": 30,
+          "event_type": "DISPLAY_TRANSACTION",
+          "event_summary": "만약에 피해 금액이",
+          "screen_text": [],
+          "visual_objects": [],
+          "entities": [],
+          "tactics": [
+            "NONE"
+          ],
+          "uncertainty": 0.0,
+          "observation_basis": "만약에 피해 금액이"
+        },
+        {
+          "second": 32,
+          "event_type": "DISPLAY_TRANSACTION",
+          "event_summary": "금액을 제시함",
+          "screen_text": [],
+          "visual_objects": [],
+          "entities": [],
+          "tactics": [
+            "NONE"
+          ],
+          "uncertainty": 0.0,
+          "observation_basis": "금액이 화면에 나타납니다."
+        },
+        {
+          "second": 34,
+          "event_type": "DISPLAY_TRANSACTION",
+          "event_summary": "금액을 제시함",
+          "screen_text": [],
+          "visual_objects": [],
+          "entities": [],
+          "tactics": [
+            "NONE"
+          ],
+          "uncertainty": 0.0,
+          "observation_basis": "금액이 화면에 나타납니다."
+        },
+        {
+          "second": 36,
+          "event_type": "DISPLAY_TRANSACTION",
+          "event_summary": "퍼센트를 제시함",
+          "screen_text": [],
+          "visual_objects": [],
+          "entities": [],
+          "tactics": [
+            "NONE"
+          ],
+          "uncertainty": 0.0,
+          "observation_basis": "퍼센트가 화면에 나타납니다."
+        },
+        {
+          "second": 38,
+          "event_type": "DISPLAY_TRANSACTION",
+          "event_summary": "금액을 제시함",
+          "screen_text": [],
+          "visual_objects": [],
+          "entities": [],
+          "tactics": [
+            "NONE"
+          ],
+          "uncertainty": 0.0,
+          "observation_basis": "금액이 화면에 나타납니다."
+        },
+        {
+          "second": 40,
+          "event_type": "PERSONAL_TESTIMONY",
+          "event_summary": "피해금액 기준으로 해서",
+          "screen_text": [],
+          "visual_objects": [],
+          "entities": [],
+          "tactics": [
+            "NONE"
+          ],
+          "uncertainty": 0.0,
+          "observation_basis": "피해금액 기준으로 해서"
+        },
+        {
+          "second": 42,
+          "event_type": "PERSONAL_TESTIMONY",
+          "event_summary": "어느 정도의 선인지 그 선이",
+          "screen_text": [],
+          "visual_objects": [],
+          "entities": [],
+          "tactics": [
+            "NONE"
+          ],
+          "uncertainty": 0.0,
+          "observation_basis": "어느 정도의 선인지 그 선이"
+        },
+        {
+          "second": 44,
+          "event_type": "PERSONAL_TESTIMONY",
+          "event_summary": "피해회복을 위해서 노력한 모습으로",
+          "screen_text": [],
+          "visual_objects": [],
+          "entities": [],
+          "tactics": [
+            "NONE"
+          ],
+          "uncertainty": 0.0,
+          "observation_basis": "피해회복을 위해서 노력한 모습으로"
+        },
+        {
+          "second": 46,
+          "event_type": "PERSONAL_TESTIMONY",
+          "event_summary": "보여줄 수 있는 선인지",
+          "screen_text": [],
+          "visual_objects": [],
+          "entities": [],
+          "tactics": [
+            "NONE"
+          ],
+          "uncertainty": 0.0,
+          "observation_basis": "보여줄 수 있는 선인지"
+        },
+        {
+          "second": 48,
+          "event_type": "PERSONAL_TESTIMONY",
+          "event_summary": "고객이 경험한 피해를 설명합니다.",
+          "screen_text": [],
+          "visual_objects": [],
+          "entities": [],
+          "tactics": [
+            "NONE"
+          ],
+          "uncertainty": 0.0,
+          "observation_basis": "고객이 손가락으로 얼굴을 가리며 말하고 있습니다."
+        },
+        {
+          "second": 50,
+          "event_type": "PERSONAL_TESTIMONY",
+          "event_summary": "고객이 경험한 피해를 계속 설명합니다.",
+          "screen_text": [],
+          "visual_objects": [],
+          "entities": [],
+          "tactics": [
+            "NONE"
+          ],
+          "uncertainty": 0.0,
+          "observation_basis": "고객이 손가락으로 얼굴을 가리며 말하고 있습니다."
+        },
+        {
+          "second": 52,
+          "event_type": "PERSONAL_TESTIMONY",
+          "event_summary": "고객이 경험한 피해를 계속 설명합니다.",
+          "screen_text": [],
+          "visual_objects": [],
+          "entities": [],
+          "tactics": [
+            "NONE"
+          ],
+          "uncertainty": 0.0,
+          "observation_basis": "고객이 손가락으로 얼굴을 가리며 말하고 있습니다."
+        },
+        {
+          "second": 54,
+          "event_type": "PERSONAL_TESTIMONY",
+          "event_summary": "고객이 경험한 피해를 계속 설명합니다.",
+          "screen_text": [],
+          "visual_objects": [],
+          "entities": [],
+          "tactics": [
+            "NONE"
+          ],
+          "uncertainty": 0.0,
+          "observation_basis": "고객이 손가락으로 얼굴을 가리며 말하고 있습니다."
+        },
+        {
+          "second": 56,
+          "event_type": "DISPLAY_TRANSACTION",
+          "event_summary": "피해 금액이",
+          "screen_text": [],
+          "visual_objects": [],
+          "entities": [],
+          "tactics": [
+            "NONE"
+          ],
+          "uncertainty": 0.0,
+          "observation_basis": "피해 금액이라는 텍스트가 화면에 표시됩니다."
+        },
+        {
+          "second": 58,
+          "event_type": "DISPLAY_TRANSACTION",
+          "event_summary": "피해 금액이",
+          "screen_text": [],
+          "visual_objects": [],
+          "entities": [],
+          "tactics": [
+            "NONE"
+          ],
+          "uncertainty": 0.0,
+          "observation_basis": "피해 금액이라는 텍스트가 화면에 계속 표시됩니다."
+        },
+        {
+          "second": 60,
+          "event_type": "DISPLAY_TRANSACTION",
+          "event_summary": "20억",
+          "screen_text": [],
+          "visual_objects": [],
+          "entities": [],
+          "tactics": [
+            "NONE"
+          ],
+          "uncertainty": 0.0,
+          "observation_basis": "20억이라는 금액이 화면에 표시됩니다."
+        },
+        {
+          "second": 62,
+          "event_type": "DISPLAY_TRANSACTION",
+          "event_summary": "2억 이렇게 되잖아요",
+          "screen_text": [],
+          "visual_objects": [],
+          "entities": [],
+          "tactics": [
+            "NONE"
+          ],
+          "uncertainty": 0.0,
+          "observation_basis": "2억 이렇게 되잖아요라는 텍스트가 화면에 표시됩니다."
+        },
+        {
+          "second": 64,
+          "event_type": "PERSONAL_TESTIMONY",
+          "event_summary": "고객이 보이스피싱에 대해 경험을 공유합니다.",
+          "screen_text": [],
+          "visual_objects": [],
+          "entities": [],
+          "tactics": [
+            "NONE"
+          ],
+          "uncertainty": 0.2,
+          "observation_basis": "고객의 얼굴 표정과 몸짓에서 보이스피싱 경험을 설명하는 것으로 추정됩니다."
+        },
+        {
+          "second": 66,
+          "event_type": "PERSONAL_TESTIMONY",
+          "event_summary": "고객이 보이스피싱에 대해 경험을 계속 공유합니다.",
+          "screen_text": [],
+          "visual_objects": [],
+          "entities": [],
+          "tactics": [
+            "NONE"
+          ],
+          "uncertainty": 0.2,
+          "observation_basis": "고객의 얼굴 표정과 몸짓에서 보이스피싱 경험을 설명하는 것으로 추정됩니다."
+        },
+        {
+          "second": 68,
+          "event_type": "PERSONAL_TESTIMONY",
+          "event_summary": "고객이 보이스피싱에 대해 경험을 계속 공유합니다.",
+          "screen_text": [],
+          "visual_objects": [],
+          "entities": [],
+          "tactics": [
+            "NONE"
+          ],
+          "uncertainty": 0.2,
+          "observation_basis": "고객의 얼굴 표정과 몸짓에서 보이스피싱 경험을 설명하는 것으로 추정됩니다."
+        },
+        {
+          "second": 70,
+          "event_type": "PERSONAL_TESTIMONY",
+          "event_summary": "고객이 보이스피싱에 대해 경험을 계속 공유합니다.",
+          "screen_text": [],
+          "visual_objects": [],
+          "entities": [],
+          "tactics": [
+            "NONE"
+          ],
+          "uncertainty": 0.2,
+          "observation_basis": "고객의 얼굴 표정과 몸짓에서 보이스피싱 경험을 설명하는 것으로 추정됩니다."
+        },
+        {
+          "second": 72,
+          "event_type": "PERSONAL_TESTIMONY",
+          "event_summary": "사람이 자신의 경험을 설명합니다.",
+          "screen_text": [],
+          "visual_objects": [],
+          "entities": [],
+          "tactics": [
+            "NONE"
+          ],
+          "uncertainty": 0.5,
+          "observation_basis": "사람이 손짓과 함께 말하고 있습니다."
+        },
+        {
+          "second": 74,
+          "event_type": "PERSONAL_TESTIMONY",
+          "event_summary": "사람이 자신의 경험을 계속 설명합니다.",
+          "screen_text": [],
+          "visual_objects": [],
+          "entities": [],
+          "tactics": [
+            "NONE"
+          ],
+          "uncertainty": 0.5,
+          "observation_basis": "사람이 손짓과 함께 말하고 있습니다."
+        },
+        {
+          "second": 76,
+          "event_type": "PERSONAL_TESTIMONY",
+          "event_summary": "사람이 자신의 경험을 계속 설명합니다.",
+          "screen_text": [],
+          "visual_objects": [],
+          "entities": [],
+          "tactics": [
+            "NONE"
+          ],
+          "uncertainty": 0.5,
+          "observation_basis": "사람이 손짓과 함께 말하고 있습니다."
+        },
+        {
+          "second": 78,
+          "event_type": "PERSONAL_TESTIMONY",
+          "event_summary": "사람이 자신의 경험을 계속 설명합니다.",
+          "screen_text": [],
+          "visual_objects": [],
+          "entities": [],
+          "tactics": [
+            "NONE"
+          ],
+          "uncertainty": 0.5,
+          "observation_basis": "사람이 손짓과 함께 말하고 있습니다."
+        },
+        {
+          "second": 80,
+          "event_type": "DISPLAY_TRANSACTION",
+          "event_summary": "전화번호가 표시되어 있습니다.",
+          "screen_text": [],
+          "visual_objects": [
+            "전화번호"
+          ],
+          "entities": [
+            {
+              "name": "전화번호",
+              "type": "CONTACT"
+            }
+          ],
+          "tactics": [
+            "CONTACT_MIGRATION"
+          ],
+          "uncertainty": 0.2,
+          "observation_basis": "전화번호가 화면에 표시되어 있습니다."
+        }
+      ]
+    }
+  }
+}
