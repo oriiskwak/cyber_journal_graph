@@ -1,0 +1,758 @@
+{
+  "method": "exact Shapley on four chronological blocks of saved visual observations",
+  "model": "Qwen3-8B-AWQ",
+  "empty_baseline": "8B score for no supplied observations",
+  "score_method": "next-token logits for ASCII 0=normal and 1=fraud",
+  "coalition_input_sha256": "e35818a6110bea4c28aaf43fc8ee7ff5d7e7b1668c32d43d7c4407a2e5d54007",
+  "videos": [
+    {
+      "video_id": "abnormal_BU2FfjTqGY8",
+      "empty_score": 3.807014365975192e-07,
+      "full_score": 7.368592923739925e-05,
+      "full_minus_empty": 7.330522780080173e-05,
+      "efficiency_error": -5.421010862427522e-20,
+      "players": [
+        {
+          "player": "B1",
+          "start_second": 0,
+          "end_second": 0,
+          "seconds": [
+            0
+          ],
+          "allowed_object_terms": [],
+          "screen_text_timestamps": 0,
+          "shapley": -0.00048243883861924053,
+          "leave_one_out_delta": -0.0004375719800009392
+        },
+        {
+          "player": "B2",
+          "start_second": 2,
+          "end_second": 4,
+          "seconds": [
+            2,
+            4
+          ],
+          "allowed_object_terms": [],
+          "screen_text_timestamps": 0,
+          "shapley": 0.000409172261126874,
+          "leave_one_out_delta": 3.169961928506382e-05
+        },
+        {
+          "player": "B3",
+          "start_second": 6,
+          "end_second": 6,
+          "seconds": [
+            6
+          ],
+          "allowed_object_terms": [],
+          "screen_text_timestamps": 0,
+          "shapley": 2.1452473066100707e-05,
+          "leave_one_out_delta": 5.7749308325583115e-05
+        },
+        {
+          "player": "B4",
+          "start_second": 8,
+          "end_second": 10,
+          "seconds": [
+            8,
+            10
+          ],
+          "allowed_object_terms": [],
+          "screen_text_timestamps": 0,
+          "shapley": 0.0001251193322270675,
+          "leave_one_out_delta": 1.9775085092987865e-05
+        }
+      ]
+    },
+    {
+      "video_id": "abnormal_pjAnVlkt1r0",
+      "empty_score": 3.807014365975192e-07,
+      "full_score": 4.9369896260031965e-06,
+      "full_minus_empty": 4.556288189405677e-06,
+      "efficiency_error": 0.0,
+      "players": [
+        {
+          "player": "B1",
+          "start_second": 0,
+          "end_second": 2,
+          "seconds": [
+            0,
+            2
+          ],
+          "allowed_object_terms": [
+            "가격 라벨",
+            "주식 차트"
+          ],
+          "screen_text_timestamps": 0,
+          "shapley": 7.788660691214014e-07,
+          "leave_one_out_delta": 2.6766654173115967e-06
+        },
+        {
+          "player": "B2",
+          "start_second": 4,
+          "end_second": 8,
+          "seconds": [
+            4,
+            6,
+            8
+          ],
+          "allowed_object_terms": [
+            "가격 라벨",
+            "주식 차트"
+          ],
+          "screen_text_timestamps": 0,
+          "shapley": 1.5147690793545128e-06,
+          "leave_one_out_delta": 4.214545469949371e-06
+        },
+        {
+          "player": "B3",
+          "start_second": 10,
+          "end_second": 12,
+          "seconds": [
+            10,
+            12
+          ],
+          "allowed_object_terms": [
+            "가격 라벨",
+            "주식 차트"
+          ],
+          "screen_text_timestamps": 0,
+          "shapley": 1.0986336912803076e-06,
+          "leave_one_out_delta": 2.5308872864115983e-06
+        },
+        {
+          "player": "B4",
+          "start_second": 14,
+          "end_second": 18,
+          "seconds": [
+            14,
+            16,
+            18
+          ],
+          "allowed_object_terms": [
+            "가격 라벨",
+            "주식 차트"
+          ],
+          "screen_text_timestamps": 0,
+          "shapley": 1.1640193496494553e-06,
+          "leave_one_out_delta": 2.5681904389784904e-06
+        }
+      ]
+    },
+    {
+      "video_id": "abnormal_RHOQgOiWJjE",
+      "empty_score": 3.807014365975192e-07,
+      "full_score": 0.1561049073934555,
+      "full_minus_empty": 0.1561045266920189,
+      "efficiency_error": -5.551115123125783e-17,
+      "players": [
+        {
+          "player": "B1",
+          "start_second": 0,
+          "end_second": 8,
+          "seconds": [
+            0,
+            2,
+            4,
+            6,
+            8
+          ],
+          "allowed_object_terms": [],
+          "screen_text_timestamps": 0,
+          "shapley": 0.14385608318503051,
+          "leave_one_out_delta": -0.6184784919023514
+        },
+        {
+          "player": "B2",
+          "start_second": 10,
+          "end_second": 18,
+          "seconds": [
+            10,
+            12,
+            14,
+            16,
+            18
+          ],
+          "allowed_object_terms": [],
+          "screen_text_timestamps": 1,
+          "shapley": 0.34433488156984754,
+          "leave_one_out_delta": -0.012752056121826172
+        },
+        {
+          "player": "B3",
+          "start_second": 20,
+          "end_second": 28,
+          "seconds": [
+            20,
+            22,
+            24,
+            26,
+            28
+          ],
+          "allowed_object_terms": [],
+          "screen_text_timestamps": 2,
+          "shapley": -0.5905575808996346,
+          "leave_one_out_delta": -0.8414983302354813
+        },
+        {
+          "player": "B4",
+          "start_second": 30,
+          "end_second": 40,
+          "seconds": [
+            30,
+            32,
+            34,
+            36,
+            38,
+            40
+          ],
+          "allowed_object_terms": [],
+          "screen_text_timestamps": 0,
+          "shapley": 0.2584711428367754,
+          "leave_one_out_delta": -0.2894246429204941
+        }
+      ]
+    },
+    {
+      "video_id": "normal_qsHWozaXnnw",
+      "empty_score": 3.807014365975192e-07,
+      "full_score": 2.710880471568089e-05,
+      "full_minus_empty": 2.672810327908337e-05,
+      "efficiency_error": 0.0,
+      "players": [
+        {
+          "player": "B1",
+          "start_second": 0,
+          "end_second": 8,
+          "seconds": [
+            0,
+            2,
+            4,
+            6,
+            8
+          ],
+          "allowed_object_terms": [],
+          "screen_text_timestamps": 4,
+          "shapley": 2.0098325824354406e-06,
+          "leave_one_out_delta": -7.699318302911706e-06
+        },
+        {
+          "player": "B2",
+          "start_second": 10,
+          "end_second": 18,
+          "seconds": [
+            10,
+            12,
+            14,
+            16,
+            18
+          ],
+          "allowed_object_terms": [],
+          "screen_text_timestamps": 2,
+          "shapley": 7.112991058969935e-06,
+          "leave_one_out_delta": 2.0372099243104458e-06
+        },
+        {
+          "player": "B3",
+          "start_second": 20,
+          "end_second": 28,
+          "seconds": [
+            20,
+            22,
+            24,
+            26,
+            28
+          ],
+          "allowed_object_terms": [],
+          "screen_text_timestamps": 2,
+          "shapley": 4.4449644012919025e-06,
+          "leave_one_out_delta": 4.2808060243260115e-06
+        },
+        {
+          "player": "B4",
+          "start_second": 30,
+          "end_second": 38,
+          "seconds": [
+            30,
+            32,
+            34,
+            36,
+            38
+          ],
+          "allowed_object_terms": [],
+          "screen_text_timestamps": 4,
+          "shapley": 1.3160315236386092e-05,
+          "leave_one_out_delta": 1.8578484741738066e-05
+        }
+      ]
+    },
+    {
+      "video_id": "normal_tM4Mo2dbLq0",
+      "empty_score": 3.807014365975192e-07,
+      "full_score": 2.0462932297959924e-05,
+      "full_minus_empty": 2.0082230861362405e-05,
+      "efficiency_error": 1.6263032587282567e-19,
+      "players": [
+        {
+          "player": "B1",
+          "start_second": 0,
+          "end_second": 20,
+          "seconds": [
+            0,
+            2,
+            4,
+            6,
+            8,
+            10,
+            12,
+            14,
+            16,
+            18,
+            20
+          ],
+          "allowed_object_terms": [],
+          "screen_text_timestamps": 0,
+          "shapley": -0.00022110786746291442,
+          "leave_one_out_delta": 1.6736292991481605e-05
+        },
+        {
+          "player": "B2",
+          "start_second": 22,
+          "end_second": 44,
+          "seconds": [
+            22,
+            24,
+            26,
+            28,
+            30,
+            32,
+            34,
+            36,
+            38,
+            40,
+            42,
+            44
+          ],
+          "allowed_object_terms": [],
+          "screen_text_timestamps": 0,
+          "shapley": -0.0003072643825679696,
+          "leave_one_out_delta": -0.00013797328574582934
+        },
+        {
+          "player": "B3",
+          "start_second": 46,
+          "end_second": 68,
+          "seconds": [
+            46,
+            48,
+            50,
+            52,
+            54,
+            56,
+            58,
+            60,
+            62,
+            64,
+            66,
+            68
+          ],
+          "allowed_object_terms": [],
+          "screen_text_timestamps": 0,
+          "shapley": 0.0007847913310783384,
+          "leave_one_out_delta": -0.00010885272058658302
+        },
+        {
+          "player": "B4",
+          "start_second": 70,
+          "end_second": 92,
+          "seconds": [
+            70,
+            72,
+            74,
+            76,
+            78,
+            80,
+            82,
+            84,
+            86,
+            88,
+            90,
+            92
+          ],
+          "allowed_object_terms": [],
+          "screen_text_timestamps": 0,
+          "shapley": -0.00023633685018609182,
+          "leave_one_out_delta": -3.018178540514782e-05
+        }
+      ]
+    },
+    {
+      "video_id": "abnormal_NbGQtYTSu88",
+      "empty_score": 3.807014365975192e-07,
+      "full_score": 0.00036259007174521685,
+      "full_minus_empty": 0.00036220937030861933,
+      "efficiency_error": -1.734723475976807e-18,
+      "players": [
+        {
+          "player": "B1",
+          "start_second": 0,
+          "end_second": 8,
+          "seconds": [
+            0,
+            2,
+            4,
+            6,
+            8
+          ],
+          "allowed_object_terms": [],
+          "screen_text_timestamps": 3,
+          "shapley": -0.024483498569450052,
+          "leave_one_out_delta": -0.058847661945037544
+        },
+        {
+          "player": "B2",
+          "start_second": 10,
+          "end_second": 18,
+          "seconds": [
+            10,
+            12,
+            14,
+            16,
+            18
+          ],
+          "allowed_object_terms": [],
+          "screen_text_timestamps": 0,
+          "shapley": -0.0017453114454966112,
+          "leave_one_out_delta": -8.162829908542335e-05
+        },
+        {
+          "player": "B3",
+          "start_second": 20,
+          "end_second": 28,
+          "seconds": [
+            20,
+            22,
+            24,
+            26,
+            28
+          ],
+          "allowed_object_terms": [],
+          "screen_text_timestamps": 0,
+          "shapley": 0.013360991503079825,
+          "leave_one_out_delta": 0.00011722056660801172
+        },
+        {
+          "player": "B4",
+          "start_second": 30,
+          "end_second": 40,
+          "seconds": [
+            30,
+            32,
+            34,
+            36,
+            38,
+            40
+          ],
+          "allowed_object_terms": [],
+          "screen_text_timestamps": 0,
+          "shapley": 0.013230027882175456,
+          "leave_one_out_delta": 1.1151802027598023e-05
+        }
+      ]
+    },
+    {
+      "video_id": "abnormal_3MB8i7I-aJI",
+      "empty_score": 3.807014365975192e-07,
+      "full_score": 0.9968763589859009,
+      "full_minus_empty": 0.9968759782844643,
+      "efficiency_error": 0.0,
+      "players": [
+        {
+          "player": "B1",
+          "start_second": 0,
+          "end_second": 2,
+          "seconds": [
+            0,
+            2
+          ],
+          "allowed_object_terms": [],
+          "screen_text_timestamps": 2,
+          "shapley": 0.24925246257915745,
+          "leave_one_out_delta": -0.0027883052825927734
+        },
+        {
+          "player": "B2",
+          "start_second": 4,
+          "end_second": 6,
+          "seconds": [
+            4,
+            6
+          ],
+          "allowed_object_terms": [],
+          "screen_text_timestamps": 2,
+          "shapley": 0.24853560745055128,
+          "leave_one_out_delta": -0.0029549598693847656
+        },
+        {
+          "player": "B3",
+          "start_second": 8,
+          "end_second": 10,
+          "seconds": [
+            8,
+            10
+          ],
+          "allowed_object_terms": [],
+          "screen_text_timestamps": 2,
+          "shapley": 0.25042654493783567,
+          "leave_one_out_delta": -9.584426879882812e-05
+        },
+        {
+          "player": "B4",
+          "start_second": 12,
+          "end_second": 14,
+          "seconds": [
+            12,
+            14
+          ],
+          "allowed_object_terms": [],
+          "screen_text_timestamps": 2,
+          "shapley": 0.2486613633169199,
+          "leave_one_out_delta": -0.002665400505065918
+        }
+      ]
+    },
+    {
+      "video_id": "abnormal_t4uiR-C6d_M",
+      "empty_score": 3.807014365975192e-07,
+      "full_score": 0.9977127313613892,
+      "full_minus_empty": 0.9977123506599526,
+      "efficiency_error": 0.0,
+      "players": [
+        {
+          "player": "B1",
+          "start_second": 0,
+          "end_second": 2,
+          "seconds": [
+            0,
+            2
+          ],
+          "allowed_object_terms": [],
+          "screen_text_timestamps": 0,
+          "shapley": 0.2479444684518839,
+          "leave_one_out_delta": -0.00164109468460083
+        },
+        {
+          "player": "B2",
+          "start_second": 4,
+          "end_second": 6,
+          "seconds": [
+            4,
+            6
+          ],
+          "allowed_object_terms": [],
+          "screen_text_timestamps": 0,
+          "shapley": 0.24981384892597447,
+          "leave_one_out_delta": -0.0006388425827026367
+        },
+        {
+          "player": "B3",
+          "start_second": 8,
+          "end_second": 10,
+          "seconds": [
+            8,
+            10
+          ],
+          "allowed_object_terms": [],
+          "screen_text_timestamps": 2,
+          "shapley": 0.24997432449792473,
+          "leave_one_out_delta": -0.0020260214805603027
+        },
+        {
+          "player": "B4",
+          "start_second": 12,
+          "end_second": 14,
+          "seconds": [
+            12,
+            14
+          ],
+          "allowed_object_terms": [],
+          "screen_text_timestamps": 2,
+          "shapley": 0.24997970878416947,
+          "leave_one_out_delta": -0.001967310905456543
+        }
+      ]
+    },
+    {
+      "video_id": "abnormal_Gh9lKEY8rSM",
+      "empty_score": 3.9278620533877984e-07,
+      "full_score": 2.5867431759252213e-05,
+      "full_minus_empty": 2.5474645553913433e-05,
+      "efficiency_error": -6.776263578034403e-21,
+      "players": [
+        {
+          "player": "B1",
+          "start_second": 0,
+          "end_second": 10,
+          "seconds": [
+            0,
+            2,
+            4,
+            6,
+            8,
+            10
+          ],
+          "allowed_object_terms": [],
+          "screen_text_timestamps": 0,
+          "shapley": -1.5149146127176518e-06,
+          "leave_one_out_delta": 1.4207901585905347e-05
+        },
+        {
+          "player": "B2",
+          "start_second": 12,
+          "end_second": 22,
+          "seconds": [
+            12,
+            14,
+            16,
+            18,
+            20,
+            22
+          ],
+          "allowed_object_terms": [],
+          "screen_text_timestamps": 0,
+          "shapley": -2.8583578334462345e-05,
+          "leave_one_out_delta": -1.5467963748960756e-05
+        },
+        {
+          "player": "B3",
+          "start_second": 24,
+          "end_second": 34,
+          "seconds": [
+            24,
+            26,
+            28,
+            30,
+            32,
+            34
+          ],
+          "allowed_object_terms": [],
+          "screen_text_timestamps": 0,
+          "shapley": 5.213977928283005e-05,
+          "leave_one_out_delta": 1.2021427210129332e-05
+        },
+        {
+          "player": "B4",
+          "start_second": 36,
+          "end_second": 48,
+          "seconds": [
+            36,
+            38,
+            40,
+            42,
+            44,
+            46,
+            48
+          ],
+          "allowed_object_terms": [],
+          "screen_text_timestamps": 0,
+          "shapley": 3.4333592182633765e-06,
+          "leave_one_out_delta": 1.6498715012858156e-05
+        }
+      ]
+    },
+    {
+      "video_id": "normal_ROIjhO4jQ_k",
+      "empty_score": 3.9278620533877984e-07,
+      "full_score": 0.16885696351528168,
+      "full_minus_empty": 0.16885657072907634,
+      "efficiency_error": 0.0,
+      "players": [
+        {
+          "player": "B1",
+          "start_second": 0,
+          "end_second": 18,
+          "seconds": [
+            0,
+            2,
+            4,
+            6,
+            8,
+            10,
+            12,
+            14,
+            16,
+            18
+          ],
+          "allowed_object_terms": [],
+          "screen_text_timestamps": 6,
+          "shapley": 0.16923633692484447,
+          "leave_one_out_delta": -0.4824979454278946
+        },
+        {
+          "player": "B2",
+          "start_second": 20,
+          "end_second": 38,
+          "seconds": [
+            20,
+            22,
+            24,
+            26,
+            28,
+            30,
+            32,
+            34,
+            36,
+            38
+          ],
+          "allowed_object_terms": [],
+          "screen_text_timestamps": 2,
+          "shapley": -0.1948572199200953,
+          "leave_one_out_delta": -0.7273944169282913
+        },
+        {
+          "player": "B3",
+          "start_second": 40,
+          "end_second": 58,
+          "seconds": [
+            40,
+            42,
+            44,
+            46,
+            48,
+            50,
+            52,
+            54,
+            56,
+            58
+          ],
+          "allowed_object_terms": [],
+          "screen_text_timestamps": 0,
+          "shapley": -0.09135350480172139,
+          "leave_one_out_delta": -0.15196435153484344
+        },
+        {
+          "player": "B4",
+          "start_second": 60,
+          "end_second": 80,
+          "seconds": [
+            60,
+            62,
+            64,
+            66,
+            68,
+            70,
+            72,
+            74,
+            76,
+            78,
+            80
+          ],
+          "allowed_object_terms": [],
+          "screen_text_timestamps": 0,
+          "shapley": 0.28583095852604856,
+          "leave_one_out_delta": 0.10877031832933426
+        }
+      ]
+    }
+  ]
+}

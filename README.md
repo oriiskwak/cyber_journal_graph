@@ -13,6 +13,7 @@
 | 사기·정상 각 1편의 1초 간격 캡처 | [타임라인](timeline/README.md) |
 | 근거 그래프 검토 | [Cypher](graph/review.cypher), [스키마와 산출물 위치](graph/README.md) |
 | 별도 new80 사건별 Shapley 실험 | [코드 및 실행 안내](shapley/README.md) |
+| 발표 영상 10편의 Shapley 결과 | [구간 기여도 및 조합 점수](shapley/tempo10/README.md) |
 
 10개 사례는 TP 3편, TN 3편, FP 2편, FN 2편이다. 저장된 평균 점수 기준으로 TP·FP의 높은 점수 사례와 TN의 낮은 점수 사례를 골랐고, test의 FN 2편을 모두 포함했다. 따라서 전체 성능은 test 121개의 지표로 보고한다. `normal_`과 `abnormal_`은 파일명 접두사이며 평가 라벨은 결과 JSON의 `label` 필드다.
 
