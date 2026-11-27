@@ -1,0 +1,26 @@
+{
+  "node_types": {
+    "Pattern": ["pattern_id", "name", "risk_level", "source_ids"],
+    "PatternElement": ["element_id", "action", "required", "source_id", "locator"],
+    "VideoEvent": ["video_id", "event_id", "t_start", "t_end", "event_type", "evidence"],
+    "CounterEvidence": ["type", "evidence", "source_id"],
+    "Source": ["source_id", "organization", "title", "published", "url"]
+  },
+  "edge_types": [
+    "NEXT_STEP",
+    "REQUIRES",
+    "OPTIONAL_STEP",
+    "SUPPORTED_BY_SOURCE",
+    "VIDEO_SUPPORTS_ELEMENT",
+    "VIDEO_CONTRADICTS_ELEMENT",
+    "VIDEO_ELEMENT_UNCONFIRMED"
+  ],
+  "match_status": ["support", "contradict", "unconfirmed"],
+  "interpretation_rules": [
+    "단일 요소 일치는 사기 확정이 아니다.",
+    "영상에 없다는 사실은 반박이 아니라 미확인이다.",
+    "교육·경고·인용 맥락은 원래 발화와 구분한다.",
+    "공식 앱·등록 업체·위험 고지는 반증 후보이며 자동 정상 확정 조건이 아니다."
+  ]
+}
+

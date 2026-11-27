@@ -1,0 +1,72 @@
+{
+  "status": "seed_unreviewed",
+  "scope": "투자 리딩방·유명인 사칭 투자사기",
+  "patterns": [
+    {
+      "pattern_id": "P01_IMPERSONATION_APP_DEPOSIT",
+      "name": "유명인 사칭 후 앱 설치·입금 유도",
+      "source_ids": ["KCC_2024_01"],
+      "elements": [
+        {"id": "E1", "action": "유명인·전문가 사칭", "required": true, "locator": "PDF p.4 lines 71-80"},
+        {"id": "E2", "action": "고수익 보장 또는 투자 광고", "required": true, "locator": "PDF p.4 lines 73-81"},
+        {"id": "E3", "action": "SNS·단체대화방·개인 리딩방 이동", "required": false, "locator": "PDF p.4 lines 73-81"},
+        {"id": "E4", "action": "특정 또는 비공식 투자 앱 설치 유도", "required": true, "locator": "PDF p.4 lines 73-81"},
+        {"id": "E5", "action": "투자금 입금 유도", "required": true, "locator": "PDF p.4 lines 73-82"}
+      ]
+    },
+    {
+      "pattern_id": "P02_FREE_CONTENT_TO_FAKE_APP",
+      "name": "무료 콘텐츠 미끼에서 가짜 증권사 앱으로 이동",
+      "source_ids": ["KCC_2024_01"],
+      "elements": [
+        {"id": "E1", "action": "무료 투자책·정보 광고", "required": true, "locator": "PDF p.4 lines 75-76"},
+        {"id": "E2", "action": "카카오톡 등 채팅방 초대", "required": true, "locator": "PDF p.4 lines 75-76"},
+        {"id": "E3", "action": "유명 증권사·고문 등 권위 사칭", "required": true, "locator": "PDF p.4 lines 75-76"},
+        {"id": "E4", "action": "가짜 증권사 앱 설치 요청", "required": true, "locator": "PDF p.4 lines 75-76"}
+      ]
+    },
+    {
+      "pattern_id": "P03_FAKE_TRADING_SYSTEM",
+      "name": "허위 수익 화면을 이용한 가짜 거래시스템 투자 유도",
+      "source_ids": ["POLICE_2024_READINGROOM"],
+      "elements": [
+        {"id": "E1", "action": "원금 또는 고수익 보장", "required": true, "locator": "카드뉴스: 가짜 홈트레이딩 시스템"},
+        {"id": "E2", "action": "허위 수익금·거래 화면 제시", "required": true, "locator": "카드뉴스: 가짜 홈트레이딩 시스템"},
+        {"id": "E3", "action": "가짜 HTS·MTS 가입 유도", "required": true, "locator": "카드뉴스: 가짜 홈트레이딩 시스템"},
+        {"id": "E4", "action": "투자금 확대 또는 입금 유도", "required": true, "locator": "카드뉴스: 가짜 홈트레이딩 시스템"},
+        {"id": "E5", "action": "출금 거부 또는 잠적", "required": false, "locator": "카드뉴스: 가짜 홈트레이딩 시스템"}
+      ]
+    },
+    {
+      "pattern_id": "P04_LOSS_RECOVERY_IMPERSONATION",
+      "name": "손실보상을 미끼로 한 기관·전문가 사칭",
+      "source_ids": ["POLICE_2024_READINGROOM"],
+      "elements": [
+        {"id": "E1", "action": "유명인·투자회사·기관 사칭", "required": true, "locator": "카드뉴스: 위조 공문서 및 사칭"},
+        {"id": "E2", "action": "위조 공문서 또는 권위 자료 제시", "required": false, "locator": "카드뉴스: 위조 공문서 및 사칭"},
+        {"id": "E3", "action": "과거 투자 손실보상 제안", "required": true, "locator": "카드뉴스: 위조 공문서 및 사칭"},
+        {"id": "E4", "action": "가상자산 투자 또는 개인정보 제공 유도", "required": true, "locator": "카드뉴스: 위조 공문서 및 사칭"}
+      ]
+    },
+    {
+      "pattern_id": "P05_UNDISCLOSED_FRONT_RUNNING",
+      "name": "이해관계를 숨긴 SNS 종목추천과 선행매매",
+      "source_ids": ["FSC_2024_FRONT_RUNNING"],
+      "elements": [
+        {"id": "E1", "action": "운영자의 추천 예정 종목 선매수", "required": true, "locator": "본문 lines 20-27"},
+        {"id": "E2", "action": "선매수·매도 가능성 등 이해관계 미표시", "required": true, "locator": "본문 lines 27-28"},
+        {"id": "E3", "action": "SNS 리딩방에서 자극적 문구로 종목 추천", "required": true, "locator": "본문 lines 25-28"},
+        {"id": "E4", "action": "참여자 매수세 유입 후 운영자 매도", "required": true, "locator": "본문 lines 20-27"}
+      ]
+    }
+  ],
+  "counterevidence_candidates": [
+    "사기 예방·경고를 목적으로 수법을 인용함",
+    "수익 가능성과 손실 위험을 함께 설명함",
+    "공식 투자설명서 또는 공시로 연결함",
+    "내부 댓글·방송 참여 문자처럼 금전 행동과 무관한 참여임",
+    "등록 업체 여부가 확인됨",
+    "송금·비공식 앱 설치·개인 리딩방 이동 요구가 확인되지 않음"
+  ]
+}
+
